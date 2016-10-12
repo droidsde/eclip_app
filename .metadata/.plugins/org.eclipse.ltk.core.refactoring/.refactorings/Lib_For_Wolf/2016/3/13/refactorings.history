@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WNotifer.java&apos; to &apos;CallRecorder/src/com.talentcodeworks.callrecorder&apos;&#x0D;&#x0A;- Original project: &apos;Lib_For_Wolf&apos;&#x0D;&#x0A;- Destination element: &apos;CallRecorder/src/com.talentcodeworks.callrecorder&apos;&#x0D;&#x0A;- Original element: &apos;wolfsolflib.com.view.WNotifer.java&apos;" description="Copy compilation unit" destination="=CallRecorder/src&lt;com.talentcodeworks.callrecorder" element1="/src&lt;wolfsolflib.com.view{WNotifer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1458633589178" units="1" version="1.0"/>
+</session>

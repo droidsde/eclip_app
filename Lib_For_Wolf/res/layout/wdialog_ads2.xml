@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#36474e"
+    android:orientation="vertical"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto" >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/wtxtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Name App"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="#2cb424"
+                android:textStyle="bold" />
+
+            </RelativeLayout>
+
+		<TextView
+		    android:id="@+id/wtxtContent"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="16dp"
+		    android:layout_marginRight="16dp"
+		    android:paddingBottom="5dp"
+		    android:text="@string/wtext_content_rate_app"
+		    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+		    android:textColor="#FAFAFA" />
+
+            <LinearLayout 
+                android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginLeft="16dp"
+	            android:layout_marginRight="16dp"
+	            android:orientation="horizontal">
+              <RelativeLayout 
+	        android:layout_gravity="center" 
+	        android:orientation="vertical" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content" 
+	        android:baselineAligned="false">
+            <ImageView
+                android:id="@+id/WimageAds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitStart"
+				android:adjustViewBounds="true"/>
+
+            <wolfsolflib.com.view.WProgressWheel
+                android:id="@+id/wprogress_image"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                wheel:matProg_barColor="#00C780"
+                wheel:matProg_fillRadius="false"
+                wheel:matProg_linearProgress="true"
+                wheel:matProg_progressIndeterminate="true" />
+
+    </RelativeLayout>  
+	       <LinearLayout
+	            android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"                
+                android:layout_weight="70"
+                android:orientation="vertical">
+                
+	           
+	       </LinearLayout>
+	                               
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp" >
+
+                <Button
+                    android:id="@+id/wbtnOK"
+                    style="@style/Base.Widget.AppCompat.ActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/wrate"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textColor="#FAFAFA"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/wbtnCancel"
+                    style="@style/Base.Widget.AppCompat.ActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/wexit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textColor="#FAFAFA"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/wDownload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/wbtn_ads_view"
+                    android:text="@string/wdownload2"
+                    android:textColor="#FAFAFA" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+int attr checkMarkTintColor 0x7f010002
+int attr failureMarkTintColor 0x7f010003
+int attr mainColor 0x7f010000
+int attr secondaryColor 0x7f010001
+int attr textColor 0x7f010004
+int drawable ic_checked_mark 0x7f020000
+int drawable ic_failure_mark 0x7f020001
+int string app_name 0x7f030000
+int[] styleable AnimatedCircleLoadingView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004 }
+int styleable AnimatedCircleLoadingView_checkMarkTintColor 2
+int styleable AnimatedCircleLoadingView_failureMarkTintColor 3
+int styleable AnimatedCircleLoadingView_mainColor 0
+int styleable AnimatedCircleLoadingView_secondaryColor 1
+int styleable AnimatedCircleLoadingView_textColor 4

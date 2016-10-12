@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wifi Password Reader</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="ssid">Name</string>
+    <string name="pwd">Password</string>
+    <string name="type">Type</string>
+    <string name="open">Open</string>
+     <string name="intro">Wifi Password reader..</string>
+    <string name="copy">Do you want copy this password?</string>
+    <string name="error">Error: Root Access is needed and have installed busybox binaries</string>
+    <string name="alert">Sorry! Your device has high security system. Please wait for a newer version OR try again another time...</string>
+</resources>

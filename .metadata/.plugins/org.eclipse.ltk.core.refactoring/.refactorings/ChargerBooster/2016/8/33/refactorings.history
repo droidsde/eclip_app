@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.wolfsoft.repairbattery.myPreferences.java&apos; to &apos;myPreference.java&apos;&#x0D;&#x0A;- Original project: &apos;ChargerBooster&apos;&#x0D;&#x0A;- Original element: &apos;com.wolfsoft.repairbattery.myPreferences.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.wolfsoft.repairbattery.myPreference.java&apos;" description="Rename compilation unit &apos;myPreferences.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.wolfsoft.repairbattery{myPreferences.java" name="myPreference.java" references="false" stamp="1470884792486" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFi HotSpot 2016</string>
+    <string name="tethering_on">Chuyển qua để <b>PHÁT</b> Wifi.</string>
+    <string name="tethering_off">Chuyển qua để  <b>ĐÓNG</b> Wifi.</string>
+    <string name="failed_on">Failed to turn ON Wi-Fi HotSpot! Sorry! Please send request to me. </string>
+    <string name="failed_off">Sorry! Failed to turn OFF Wi-Fi HotSpot! Sorry! Please send request to me.</string>
+    <string name="action_settings">Settings</string>
+    <string name="message">Message</string>
+    <string name="ssid_name_label">Tên mạng WiFi: </string>
+    <string name="security_name_label">Chuẩn WiFi: </string>
+    <string name="password_label">Mật khẩu: </string>
+    <string name="password_hint">Ít nhất 8 ký tự</string>
+    <string name="save_button"><b>Lưu</b></string>
+    <string name="show_password">Hiển thị mật khẩu</string>
+    <string name="intro">Share your 3G, 4G Network</string>
+
+</resources>

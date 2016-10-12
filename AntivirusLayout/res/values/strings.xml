@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Anti virus siêu PRO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="stars">Start</string>
+    <string name="restart">Stop</string>
+    <string name="Nocharge">No charge</string>
+    <string name="brightness">Quick Scan</string>
+    <string name="airplane">Rate App</string>
+    <string name="rotate">Full Scan</string>
+    <string name="rotate_true">ROTATE LOCKED</string>
+    <string name="gps">More App</string>
+
+
+    <!--batery intro-->
+    <string name="voltage">VOLTAGE</string>
+    <string name="battery">BATTERRY</string>
+    <string name="temprature">TEMPRATURE</string>
+    <string name="banner_ad_unit_id">111</string>
+
+</resources>

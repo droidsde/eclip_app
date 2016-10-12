@@ -1,0 +1,18 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: gdwtRsdtegHIb6C+gAj6iPgCwNs=
+Created-By: 1.6.0_65 (Apple Inc.)
+SHA1-Digest-Manifest: hFElVzWyVRYTmRr4yDOodP/y43c=
+
+Name: features/com.crashlytics.tools.eclipse_2.2.1.jar
+SHA1-Digest: 0dHe0GM4HVTcXA519r53WiI7HcU=
+
+Name: artifacts.jar
+SHA1-Digest: yKt0hNq8WqfFJTShbLBHiNzFyN0=
+
+Name: content.jar
+SHA1-Digest: UuCRxDOz2yoENxjFgt+COfQaYjw=
+
+Name: plugins/com.crashlytics.tools.eclipse.workbench_2.2.1.2015070222
+ 41.jar
+SHA1-Digest: 27jYRMha4dzPYUZZ+0UCJ2Pf0lg=
+

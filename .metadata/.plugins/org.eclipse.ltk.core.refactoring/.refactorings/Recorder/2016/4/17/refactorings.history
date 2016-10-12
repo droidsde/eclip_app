@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;res&apos;&#x0D;&#x0A;- Original project: &apos;Recorder&apos;&#x0D;&#x0A;- Destination element: &apos;res&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     drawable-mdpi&#x0D;&#x0A;     drawable-ldpi&#x0D;&#x0A;     drawable-xhdpi&#x0D;&#x0A;     drawable-xxhdpi&#x0D;&#x0A;     drawable-hdpi" description="Copy folders" element1="res/drawable-mdpi" element2="res/drawable-ldpi" element3="res/drawable-xhdpi" element4="res/drawable-xxhdpi" element5="res/drawable-hdpi" files="0" flags="589830" folders="5" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1461221190943" target="/wifi-key-map/res" units="0" version="1.0"/>
+</session>

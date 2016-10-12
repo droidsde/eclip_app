@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/colorbackgroud"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:paddingTop="15dp">
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/summary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+        	<ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/low"
+                android:layout_gravity="center_vertical|right"/>
+            <TextView
+		        android:id="@+id/low"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="6dp"
+		        android:text="zzz"
+		        android:textColor="#FFF" 
+		        />
+    </LinearLayout>
+    
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+        	<ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/inactive"
+                android:layout_gravity="center_vertical|right"/>
+            <TextView
+		        android:id="@+id/inactive"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="6dp"
+		        android:text="zzz"
+		        android:textColor="#FFF" 
+		        />
+    </LinearLayout>
+    
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+        	<ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/healthy"
+                android:layout_gravity="center_vertical|right"/>
+            <TextView
+		        android:id="@+id/healthy"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="6dp"
+		        android:text="zzz"
+		        android:textColor="#FFF" 
+		        />
+    </LinearLayout>
+    
+	<TextView android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:textColor="#FFF"
+	    android:id="@+id/alert1"
+	    android:text="@string/alert1"/>
+	
+	<TextView android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:textColor="#FFF"
+	    android:id="@+id/alert2"
+	    android:text="@string/alert2"/>
+	
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp">
+        <Button
+        android:id="@+id/dialogButtonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cancel"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/btn1"
+        />
+	    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/fix"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/btn2"
+        />
+	</LinearLayout>
+	
+	
+	
+</LinearLayout>

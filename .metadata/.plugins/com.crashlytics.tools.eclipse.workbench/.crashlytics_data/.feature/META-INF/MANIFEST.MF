@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_65 (Apple Inc.)
+
+Name: features/com.crashlytics.tools.eclipse_2.2.1.jar
+SHA1-Digest: ihGmclmpetCqc9dOdpvwOu/cPio=
+
+Name: artifacts.jar
+SHA1-Digest: aJ7QV80ZgsV65MYaRiLM+g2DvFY=
+
+Name: content.jar
+SHA1-Digest: YiblpSLZzIccfyBMylEU/C/jIqc=
+
+Name: plugins/com.crashlytics.tools.eclipse.workbench_2.2.1.2015070222
+ 41.jar
+SHA1-Digest: mgMBIME3MfwFJFfCYPImONgtIyI=
+

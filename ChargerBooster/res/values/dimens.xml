@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">0dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tvProcess">25dp</dimen>
+
+
+    <dimen name="sizepin">280dp</dimen>
+    <dimen name="heightbottompin">50dp</dimen>
+    <dimen name="paddingbutton">15dp</dimen>
+    <dimen name="textsizebutton">25sp</dimen>
+    <dimen name="textsizelevel">28sp</dimen>
+    <dimen name="textsizemode">28sp</dimen>
+    <dimen name="toplevel">25dp</dimen>
+
+    <dimen name="topmode">20dp</dimen>
+    <dimen name="textsizeintro">20sp</dimen>
+
+    <dimen name="paddingbattery">50dp</dimen>
+    <dimen name="sizeprocess">200dp</dimen>
+    <dimen name="sizetext">35sp</dimen>
+    <dimen name="sizetextinfo">24sp</dimen>
+    <dimen name="sizetextprocess">28sp</dimen>
+    <dimen name="heightre">90dp</dimen>
+    <dimen name="tvText">13.5dp</dimen>
+    
+    
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+</resources>

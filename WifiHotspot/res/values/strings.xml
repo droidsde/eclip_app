@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFi HotSpot /Tethering</string>
+    <string name="tethering_on">Switch to turn <b>ON</b> Wi-Fi HotSpot.</string>
+    <string name="tethering_off">Switch to turn <b>OFF</b> Wi-Fi HotSpot.</string>
+    <string name="failed_on">Failed to turn ON Wi-Fi HotSpot! Sorry! Please send request to me. </string>
+    <string name="failed_off">Sorry! Failed to turn OFF Wi-Fi HotSpot! Sorry! Please send request to me.</string>
+    <string name="action_settings">Settings</string>
+    <string name="message">Message</string>
+    <string name="ssid_name_label">Network: </string>
+    <string name="security_name_label">Security: </string>
+    <string name="password_label">Password: </string>
+    <string name="password_hint">At least 8 characters</string>
+    <string name="save_button">Save</string>
+    <string name="show_password">Show Password</string>
+    <string name="intro">Share your 3G, 4G Network</string>
+    <string name="btn_change_color">Change the color</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+ 
+    </style>
+ 
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <color name="primary">#0D47A1</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#455A64</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+   <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <item name="colorPrimary">#673AB7</item>
+    <item name="colorPrimaryDark">#512DA8</item>
+    <item name="colorAccent">#00BCD4</item>
+
+	</style>
+
+   <style name="DialogTheme" parent="android:Theme.Dialog">
+
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+
+
+    <!-- No backgrounds, titles or window float -->
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">false</item>
+	</style>
+
+</resources>

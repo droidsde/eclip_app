@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Android%20World/NGU/Lib_design/res/values-v21/dimens.xml -->
+    <eat-comment/>
+    <dimen name="design_navigation_padding_top_default">24dp</dimen>
+</resources>
