@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.batterydoctor.superfastcharger.fastcharger.ui.InverseTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:power="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.batterydoctor.superfastcharger.fastcharger.ui.MainTitle
+            android:id="@id/main_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            power:title_text="@string/app_name" >
+        </com.batterydoctor.superfastcharger.fastcharger.ui.MainTitle>
+	<LinearLayout
+	    android:id="@+id/line1"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        
+        <com.batterydoctor.superfastcharger.fastcharger.ui.CustomTabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            
+            android:background="@drawable/tab_bar_bg" />
+        </LinearLayout>
+		
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/line1"
+            android:layout_below="@id/main_title" >
+        </FrameLayout>
+        
+		
+    </RelativeLayout>
+
+</com.batterydoctor.superfastcharger.fastcharger.ui.InverseTabHost>

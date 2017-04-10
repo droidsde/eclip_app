@@ -15,6 +15,7 @@ eclipse.preferences.version=1
 filteredSearchResultIndicationColor=97,97,97
 javaScriptOccurrenceIndicationColor=97,97,97
 lineNumberColor=129,150,154
+lineNumberRuler=true
 occurrenceIndicationColor=97,97,97
 overviewRuler_migration=migrated_3.1
 printMarginColor=129,150,154

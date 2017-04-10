@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">Cooler Master</string>
+    <string name="title_more">More</string>
+    <string name="title_more_app">Thêm ứng dụng</string>
+    <string name="title_rate_app">Đánh giá ứng dụng</string>
+    <string name="title_share_app">Chia sẻ</string>
+    <string name="title_feedback">Phản hồi</string>
+    <string name="task_msg">Bạn muốn tắt nó chứ?</string>
+    <string name="btn_cancel">Huỷ</string>
+    <string name="btn_kill">Xoá</string>
+    <string name="dialog_title">Cooling App</string>
+    <string name="btn_ok">Đồng ý</string>
+    <string name="btn_cleantask">Xoá tiến trình</string>
+    <string name="ram_used">RAM</string>
+    <string name="temp">Nhiệt độ</string>
+    <string name="clean_app">Hạ nhiệt ngay</string>
+    <string name="content_description">Overlay Phone</string>
+    <string name="scan_title">Đang tìm kiếm ứng dụng làm cho điện thoại nóng…</string>
+    <string name="cooling_title">Hạ nhiệt ngay…</string>
+    <string name="cooling_done">Điện thoại của bạn đã mát!</string>
+    <string name="cooling_already">Đã hạ nhiệt độ!</string>
+    <string name="exit">Thoát</string>
+    <string name="done">Xong</string>
+    <string name="process_kill">Process Killed: </string>
+    <string name="memory_clean">Memory Cleaned: </string>
+    <string name="intro_title1">Ứng dụng hạ nhiệt điện thoại như thế nào?</string>
+    <string name="intro_content1">Chạy quá nhiều ứng dụng nên lá lý do gây nóng điện thoại của bạn. Nhiệt độ cao ảnh hưởng lớn đến hiệu xuất của điện thoại. Cooling Master tìm kiếm ứng dụng làm tăng nhiệt độ của điện thoại. Bạn có thể đóng chúng lại để hạ nhiệt độ</string>
+    <string name="intro_title2">Nguyên nhân gây quá nóng?</string>
+    <string name="intro_content2">Do thiết kế yếu kém một số thiết bị ngầm sử dụng liên tục CPU của bạn. Sử dụng các ứng dụng quá nặng liên tục, chơi trò chơi, nghe nhạc, xem phim trong thời gian dài khi đang sạc pin làm cho điện thoại nóng lên rất nhiều.</string>
+    <string name="intro_title3">Hậu quả của việc tăng nhiệt độ</string>
+    <string name="intro_content3">Nhiệtđộ cao ảnh hưởng đến hoạt động của điện thoại, làm cho nó chậm, giật, lag thậm chí treo máy. Nhiệt độ cao dễ làm hư các linh kiện bên trọng</string>
+	<string name="detect_app">Phát hiện ứng dụng làm nóng</string>
+	<string name="hot_cpu">CPU thì nóng</string>
+	<string name="cool_cpu">CPU thì lạnh</string>
+	<string name="degree">\u2103</string>
+	<string name="percent">%</string>
+    
+</resources>

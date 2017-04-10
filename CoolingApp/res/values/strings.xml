@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">Cooler Master</string>
+    <string name="title_more">More</string>
+    <string name="title_more_app">More app</string>
+    <string name="title_rate_app">Rate app</string>
+    <string name="title_share_app">Share app</string>
+    <string name="title_feedback">Feed back</string>
+    <string name="task_msg">Do you want to clean it?</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_kill">Clean</string>
+    <string name="dialog_title">Cooling App</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cleantask">Clean Tasks</string>
+    <string name="ram_used">RAM</string>
+    <string name="temp">Temp</string>
+    <string name="clean_app">Cool Down</string>
+    <string name="content_description">Overlay Phone</string>
+    <string name="scan_title">Scanning the phone…</string>
+    <string name="cooling_title">Cooling Now…</string>
+    <string name="cooling_done">Your Device is Cool Now!</string>
+    <string name="cooling_already">Already Cooling!</string>
+    <string name="exit">Exit</string>
+    <string name="done">Done</string>
+    <string name="process_kill">Process Killed: </string>
+    <string name="memory_clean">Memory Cleaned: </string>
+    <string name="intro_title1">How does Cooling App Works?</string>
+    <string name="intro_content1">Running too many apps in the background at the same time might cause your phone overheated. High phone temperature affects the performance of the phone, making it slow, freeze. Cooling App detects apps with high CPU usage so you can close them by one click and make your phone cool.</string>
+    <string name="intro_title2">What causes overheating?</string>
+    <string name="intro_content2">Due to poor design, some apps might constantly use your CPU in background, which causes the phone to overheat. Using complex apps, playing games, watching videos for a long time might cause your phone overheat, while charging battery cause a lot of heat, so its nothing unusual for the phone slightly heat up.</string>
+    <string name="intro_title3">Damages caused by overheating?</string>
+    <string name="intro_content3">High Phone temperature affects the performance of the phone and make it slow, hanged or restart. A phone that is running at high temperature for too long cause the electronic components inside to wear out decrease the phone\'s service life.</string>
+	<string name="detect_app">DETECT OVER HEATED APPS</string>
+	<string name="hot_cpu">CPU is Hot</string>
+	<string name="cool_cpu">CPU is Cool</string>
+	<string name="degree">\u2103</string>
+	<string name="percent">%</string>
+    
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_action_more"
+        android:orderInCategory="100"
+        android:title="@string/title_more"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_more_app"
+                android:icon="@drawable/ic_action_more_app"
+                android:title="@string/title_more_app"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_rate_app"
+                android:icon="@drawable/ic_action_rate_app"
+                android:title="@string/title_rate_app"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_share_app"
+                android:icon="@drawable/ic_action_share"
+                android:title="@string/title_share_app"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/action_feed_back"
+                android:icon="@drawable/ic_action_feed_back"
+                android:title="@string/title_feedback"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>

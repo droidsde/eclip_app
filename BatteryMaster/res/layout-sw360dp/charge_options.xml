@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="05dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgfastcharge_circle"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/circle_33" />
+
+                <ImageView
+                    android:id="@+id/imgfastcharge"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fast_charge_32" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/imgfastcharge_line"
+                android:layout_width="0dip"
+                android:layout_height="3dip"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgfullcharge_circle"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:src="@drawable/circle_33" />
+
+                <ImageView
+                    android:id="@+id/imgfullcharge"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_gravity="center"
+                    android:src="@drawable/full_charge_32" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/imgfullcharge_line"
+                android:layout_width="0dip"
+                android:layout_height="3dip"
+                android:layout_weight="1"
+                android:background="@color/primary"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/imgtricklecharge_circle"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:src="@drawable/circle_33" />
+
+                <ImageView
+                    android:id="@+id/imgtricklecharge"
+                    android:layout_width="32dip"
+                    android:layout_height="32dip"
+                    android:layout_gravity="center"
+                    android:src="@drawable/trickle_32" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtfastcharge_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Fast_Charge"
+                    android:textColor="@color/primary" />
+
+                <TextView
+                    android:id="@+id/txtfastcharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Waiting"
+                    android:textColor="@color/primary" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtfullcharge_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Continuous_Charge"
+                    android:textColor="@color/primary" />
+
+                <TextView
+                    android:id="@+id/txtfullcharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Waiting"
+                    android:textColor="@color/primary" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="1dip"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txttricklecharge_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Trickle_Charge"
+                    android:textColor="@color/primary" />
+
+                <TextView
+                    android:id="@+id/txttricklecharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Waiting"
+                    android:textColor="@color/primary" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

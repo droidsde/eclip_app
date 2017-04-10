@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <color name="primary">#62bdea</color>
+     
+    <!-- home -->
+    <color name="home_remaining_time_label_color">#ff9da1a5</color>
+    <color name="power_home_float_text_color">#ff000000</color>
+    <color name="home_optimize_button_color">#ff62bdea</color>
+    <color name="charger_curve_chart_empty_text_color">#ffaaaaaa</color>
+    <color name="home_time_digital_unit_color">#ffcdd2d6</color>
+    <color name="smart_settings_title_color_start">#ffffffff</color>
+    <color name="smart_settings_title_color_end">#ffa4acb3</color>
+    <color name="switch_buttons_bg">#60132433</color>
+    <color name="widget_text_color">#ffbebebe</color>
+    <color name="graphic_text">#ffc3c5c8</color>
+    <color name="graphic_bg">#ff343d48</color>
+    <color name="graphic_ground_line">#ff424652</color>
+    <!-- toolbox -->
+    <color name="toolbox_apps_listview_item_pressed">#70000000</color>
+    <color name="toolbox_apps_listview_item_normal">#45000000</color>
+    <color name="toolbox_apps_listview_item_text_name_color">#ff59c4fb</color>
+    <color name="toolbox_apps_listview_item_text_desc_color">#ff999999</color>
+    <!-- power -->
+    <color name="monitor_button_text_color">#ffffffff</color>
+    <color name="monitor_percent_text_color">#ff8f9295</color>
+    <color name="usage_color_grey">#dd898989</color>
+    <!-- mode -->
+    <color name="mode_list_title_bg">#ff272d40</color>
+    <color name="mode_content_color">#ff8f9295</color>
+     <color name="mode_nomal_color">#ffffffff</color>
+     <color name="mode_list_normal_bg">#10c4d4e1</color>
+     <color name="mode_list_pressed_bg">#33c4d4e1</color>
+     
+     <color name="main_tab_indicator">#80000000</color>
+    <!-- main tab -->
+    <color name="main_title_color">#ff48a4d2</color>
+    <color name="main_tab_text_color_normal">#ff8f9295</color>
+    <item type="color" name="main_tab_text_color_pressed">@color/main_title_color</item>
+    <!-- title_indecator -->
+    <color name="tab_indicator_background_color">#9913161f</color>
+    <!-- personal -->
+    <color name="personal_center_divider">#ff1b1e26</color>
+    <color name="personal_center_archievement_title">#ff3c404c</color>
+    <!-- battery graph -->
+    <color name="battery_percent_shadow">#ff090c13</color>
+    <color name="local_white">#ffffffff</color>
+    <color name="button_bg">#33c4d4e1</color>
+    
+</resources>

@@ -4267,6 +4267,7 @@ containing a value of this type.
         public static final int store_picture_title=0x7f080016;
         public static final int temprature=0x7f080051;
         public static final int upgrade_text=0x7f080039;
+        public static final int url_app=0x7f080054;
         /** batery intro
          */
         public static final int voltage=0x7f08004f;

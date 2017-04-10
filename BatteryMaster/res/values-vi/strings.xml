@@ -1,0 +1,177 @@
+<resources>
+	<!-- error -->
+	<string name="error_title">Lỗi</string>
+	<string name="error_json_excepton">Vui lòng xóa dữ liệu của ứng dụng, và thử lại!</string>
+	<string name="error_the_time_match">Thời gian trùng nhau</string>
+    <!-- battery saver -->
+    <string name="title_tab_home">Tiết kiệm Pin</string>
+    <string name="title_tab_toolbox">Sạc nhanh</string>
+    <string name="title_tab_monitor">Giám sát</string>
+    <string name="title_tab_saver">Tiết kiệm pin</string>
+    <!-- home -->
+    <string name="app_name">Sạc pin nhanh</string>
+    <string name="battery_info_value_timer_left">Thời gian còn lại:</string>
+    <string name="battery_info_value_charging_timer_left">Thời gian sạc còn lại:</string>
+    <string name="battery_info_value_unknown">Không xác định</string>
+    <string name="power_consumption_analysis">TỐI ƯU</string>
+    <string name="home_digital_time_hour">h</string>
+    <string name="home_digital_time_minute">m</string>
+    <string name="home_status_battery_full">Pin đầy, vui lòng ngắt kết nối!</string>
+    <!-- power -->
+    <string name="apps_usage_stop_app">Dừng</string>
+    <string name="apps_usage_stoped_app">Đã dừng</string>
+    <string name="apps_usage_running_app">Đang chạy</string>
+    <string name="apps_open_usage">Sử Dụng Pin</string>
+    <string name="apps_refresh">Làm mới</string>
+    <!-- tab -->
+    <string name="tab_home">Pin</string>
+    <string name="tab_saver">Tiết kiệm hơn</string>
+    <string name="tab_saver_mode">Chế độ</string>
+    <string name="tab_saver_smart">Thông minh</string>
+    <string name="tab_monitor_apps">Phần mềm</string>
+    <string name="tab_monitor_hardware">Phần cứng</string>
+    <string name="tab_monitor_process">Tiến trình</string>
+    <string name="tab_monitor_service">Service</string>
+    <string name="tab_tool">Sạc nhanh</string>
+    <string name="tab_monitor">Giám sát</string>
+    <!-- swithc button -->
+    <string name="turning_on">Đang bật &#8230;</string>
+    <string name="turning_off">Đang tắt &#8230;</string>
+    <string name="screen_text">Độ sáng</string>
+    <string name="sync_text">Đồng bộ</string>
+    <string name="gps_text">GPS</string>
+    <string name="data_text">Dữ liệu</string>
+    <string name="wifi_text">WiFi</string>
+    <string name="bluetooth_text">Bluetooth</string>
+    <string name="volume_text">Âm thanh</string>
+    <string name="screen_rorate_text">Rotation</string>
+    <string name="vibrator">Rung</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="silent">Silence</string>
+    <string name="screen_timeout">Tắt màn hình</string>
+    <string name="clock_mode">Chế độ máy bay</string>
+    <!-- personal -->
+    <string name="personal_title">Cá nhân</string>
+    <string name="personal_center_rate">Đánh giá</string>
+    <string name="personal_center_achievement">Thành tựu:</string>
+    <string name="celsius">℃</string>
+    <string name="fahrenheit">°F</string>
+    <string name="voltage_unit">V</string>
+    <string name="battery_info_capacity">Dung lượng</string>
+    <string name="battery_info_voltage">Điện áp</string>
+    <string name="battery_info_technology">Công nghệ</string>
+    <string name="battery_info_temperature">Nhiệt độ</string>
+    <string name="battery_info_value_1">&lt;font color=\"#5ec5f9\">%1$s</string>
+    <string name="battery_info_value_2">&lt;font color=\"#5ec5f9\">%1$s&lt;/font> %2$s</string>
+    
+    <!--  -->
+    <string name="service_name">Battery Saver Service</string>
+    <string name="no_internet">Vui lòng kiểm tra lại kết nối mạng</string>
+    <!-- mode -->
+    <string name="mode_newmode_add_new">Thêm chế độ</string>
+    <string name="mode_newmode_edit_new">Sửa chế độ</string>
+    <string name="mode_label_longest_standby">Long</string>
+    <string name="mode_label_general_standby">General</string>
+    <string name="mode_label_sleep_standby">Sleep</string>
+    <string name="mode_mymode">Của tôi</string>
+    <string name="mode_add_new">Thêm mới</string>
+    <string name="mode_longest_detail">Calls, SMS - On; Mobile Data - Off</string>
+    <string name="mode_general_detail">Calls, SMS, Mobile Data - On; Wi-Fi - Off</string>
+    <string name="mode_sleep_detail">Clock, Alarm - On; Calls, SMS, Data - Off</string>
+    <string name="mymode_detail">Lưu các thiết lập hiện tại</string>
+    <string name="mode_newmode_save">Lưu</string>
+    <string name="mode_newmode_cancel">Hủy</string>
+    <string name="mode_newmode_screen_setting">Độ sáng màn hình</string>
+    <string name="mode_newmode_screen_timeout_setting">Thời gian tắt màn hình</string>
+    <string name="mode_newmode_wifinet_switch">Wi-Fi</string>
+    <string name="mode_newmode_mobiledata_switch">Dữ liệu mạng</string>
+    <string name="mode_newmode_bluetooth_switch">Bluetooth</string>
+    <string name="mode_newmode_gps_switch">GPS</string>
+    <string name="mode_newmode_ariplane_switch">Chế độ máy bay</string>
+    <string name="mode_newmode_volume_switch">Âm thanh</string>
+    <string name="mode_setting_value_auto">Tự động</string>
+    <string name="mode_brightness_percent_100">100%</string>
+    <string name="mode_brightness_percent_50">50%</string>
+    <string name="mode_brightness_percent_40">40%</string>
+    <string name="mode_brightness_percent_30">30%</string>
+    <string name="mode_brightness_percent_20">20%</string>
+    <string name="mode_brightness_percent_0">0%</string>
+    <string name="mode_sreen_timeout_15sec">15 giây</string>
+    <string name="mode_sreen_timeout_30sec">30 giây</string>
+    <string name="mode_sreen_timeout_1min">1 phút</string>
+    <string name="mode_sreen_timeout_2min">2 phút</string>
+    <string name="mode_sreen_timeout_10min">10 phút</string>
+    <string name="mode_sreen_timeout_30min">30 phút</string>
+    <string name="mode_on">Bật</string>
+    <string name="mode_off">Tắt</string>
+    <string name="mode_newmode_name">Tùy chỉnh</string>
+    <string name="mode_newmode_name_setting_hint">Tên chế độ</string>
+    <!--  schdele -->
+    <string name="schedule_newshedule_add_new">Thêm lịch</string>
+    <string name="schedule_newshedule_edit_new">Sủa lịch</string>
+     <string name="schedule_newshedule_timepicker_repeat">Lặp lại</string>
+     <string name="schedule_newshedule_timepicker_work">Work</string>
+    <string name="schedule_newshedule_timepicker_start">Bắt đầu</string>
+    <string name="schedule_newshedule_timepicker_stop">Kết thúc</string>
+    <string name="schedule_newshedule_text_monday">Thứ 2</string>
+    <string name="schedule_newshedule_text_tuesday">Thứ 3</string>
+    <string name="schedule_newshedule_text_wednesday">Thứ 4</string>
+    <string name="schedule_newshedule_text_thurday">Thứ 5</string>
+    <string name="schedule_newshedule_text_friday">Thứ 6</string>
+    <string name="schedule_newshedule_text_saturday">Thứ 7</string>
+    <string name="schedule_newshedule_text_sunday">Chủ nhật</string>
+    <string name="schedule_newshedule_text_mon">2</string>
+    <string name="schedule_newshedule_text_tue">3</string>
+    <string name="schedule_newshedule_text_wed">4</string>
+    <string name="schedule_newshedule_text_thu">5</string>
+    <string name="schedule_newshedule_text_fri">6</string>
+    <string name="schedule_newshedule_text_sat">7</string>
+    <string name="schedule_newshedule_text_sun">CN</string>
+    <string name="schedule_newshedule_text_everyday">Hàng ngày</string>
+    <string name="schedule_newshedule_text_workDay">Ngày làm việc</string>
+     <string name="dialog_title_slect_mode">Chọn chế độ</string>
+    <!-- dialog -->
+    <string name="dialog_delete_item_title">Xóa chế độ</string>
+    <string name="dialog_delete_item_message">Bạn có chắc chắn? Chế độ xóa là không thể phục hồi</string>
+	
+	<string name="update_dialog_never_display">Đừng hỏi tôi lần sau</string>
+	<string name="dialog_ok">Đồng ý</string>
+	<string name="dialog_title_default">Chú ý</string>
+	<string name="dialog_title_warning">Cảnh báo</string>
+	<string name="dialog_message_default">Chức năng đang phát triển</string>
+	<string name="dialog_message_mode_exits">Tên chế độ đã tồn tại</string>
+	<string name="dialog_message_mode_Invalid">Tên chế độ không hợp lệ</string>
+	<string name="dialog_delete">Xóa</string>
+    <string name="dialog_cancel">Hủy</string>
+    <string name="dialog_change">Thay đổi</string>
+    <string name="dialog_notify_title">Thông báo</string>
+    <string name="dialog_waring_stop">Nếu bạn buộc dừng một quá trình, nó có thể hoạt động sai</string>
+    <string name="dialog_need_root">The device need user permissions to stop this process</string>
+    <string name="progress_loading">Đang tải...</string>
+    <!-- optimize activity -->
+    <string name="optimize_title">Tối Ưu</string>
+    <string name="optimize_save_now">Tối ưu ngay</string>
+    <string name="optimize_saving">Đang tối ưu</string>
+    <string name="optimize_go_back">Tuyệt.Trở lại</string>
+    <string name="optimize_running_apps">Các Ứng dụng đang chạy</string>
+    <string name="optimize_ram_info">Thông tin Ram</string>
+    <string name="optimize_running_apps_stops">Các ứng dụng đang chạy đã dừng lại</string>
+    <string name="optimize_using_supper_user">Sử dụng quyền Root</string>
+    <string name="optimize_using_root">Sử dụng quyền root để dọn dẹp tốt hơn</string>
+    <string name="optimize_running_status">Sẽ bị dừng lại</string>
+    <string name="optimize_memory">bộ nhớ</string>
+    <string name="optimize_clear_apps">Hoàn tất!</string>
+    
+     <string name="setting">Cài đặt</string>
+    <string name="rateapp">Đánh giá</string>
+    <string name="feedback">Gửi phản hồi</string>
+    <string name="about">Tác giả</string>
+    <string name="otherapp">Ứng dụng khác</string>
+    <string name="openfastcharger">Mở sạc nhanh</string>
+    <string name="openfastchargernotifocation">Mở giao diện sạc nhanh khi cắm sạc</string>
+    <string name="notificationsound">Âm thanh thông báo</string>
+    <string name="notificationsoundde">Báo động kèm âm thanh</string>
+    <string name="fullbattery">Báo pin đầy</string>
+    <string  name ="fullbatterynoti">Hiện thông báo pin đầy</string>
+ 
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main -->
+    <dimen name="main_title_text_size">17.0sp</dimen>
+    <!-- home -->
+    <dimen name="home_area_padding_left_right">16.0dip</dimen>
+    <dimen name="home_remaining_time_text_size">10.0sp</dimen>
+    <dimen name="power_home_float_text_padding_left">5.0dip</dimen>
+    <dimen name="power_home_float_text_size">16.0sp</dimen>
+    <dimen name="home_optimize_button_width">200.0dip</dimen>
+    <dimen name="home_optimize_button_height">39.0dip</dimen>
+    <dimen name="home_battery_remain_time_value_button_margin">6.0dip</dimen>
+    <dimen name="home_onekey_button_text">16.0sp</dimen>
+    <dimen name="home_history_margin_bottom">5.0dip</dimen>
+    <dimen name="home_history_margin_top">15dip</dimen>
+    <dimen name="home_battery_info_view_sep_margin_top">10.0dip</dimen>
+    <dimen name="home_battery_info_view_sep_margin_bottom">10.0dip</dimen>
+    <dimen name="charger_curve_chart_empty_text_size">18.0sp</dimen>
+    <dimen name="home_switch_button_height">150dp</dimen>
+    <dimen name="home_history_grap_height">110dp</dimen>
+    
+    	<!-- digital battery -->
+    <dimen name="digital_text_value">45sp</dimen>
+    <dimen name="digital_text_lable">20sp</dimen>
+    <dimen name="digital_unit_margin_left">8.0dip</dimen>
+    <dimen name="digital_unit_margin_right">8.0dip</dimen>
+    <dimen name="big_digit">50.0sp</dimen>
+    <dimen name="digital_unit_size">16.0sp</dimen>
+    <!-- battery graph -->
+    <dimen name="dx_batterygraph_sign_margin_top">22.0dip</dimen>
+    <dimen name="dx_batterygraph_text_bottom">33.0dip</dimen>
+    <dimen name="dx_batterygraph_text_size">18.0sp</dimen>
+    <dimen name="dx_batterygraph_custom_height">82.0dip</dimen>
+    <dimen name="dx_batterygraph_custom_width">82.0dip</dimen>
+    <dimen name="battery_capacity_height">158.5dip</dimen>
+    <dimen name="battery_capacity_width">100dip</dimen>
+    <dimen name="dx_batterygraph_normal_bottom_small">28.5dip</dimen>
+    <dimen name="dx_batterygraph_normal_top_small">9.0dip</dimen>
+    <!-- toolbox -->
+    <dimen name="toolbox_apps_listview_item_divider_height">3.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_height">74.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_icon_size">48.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_icon_margin_top">13.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_text_margin_left">17.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_text_margin_right">21.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_text_name_margin_top">8.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_text_name_size">14.0sp</dimen>
+    <dimen name="toolbox_apps_listview_item_text_desc_size">12.0sp</dimen>
+    <dimen name="toolbox_apps_listview_item_text_desc_margin_top">0.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_gold_img_size">18.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_gold_img_margin_right">17.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_gold_img_margin_top">14.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_gold_img_padding_right">20.0dip</dimen>
+    <dimen name="toolbox_apps_listview_item_gold_value_size">16.0sp</dimen>
+    <dimen name="toolbox_apps_gold_listview_item_desc_margin">8.0dip</dimen>
+    <dimen name="toolbox_apps_gridview_item_icon_installed_size">15.0dip</dimen>
+    <dimen name="toolbox_apps_gridview_icon_margin_top">20.0dip</dimen>
+    <dimen name="battery_info_view_summary_size">12.0sp</dimen>
+    <dimen name="battery_info_view_value_size">18.0sp</dimen>
+    <dimen name="battery_info_summary_value_margin">8.0dip</dimen>
+    <!-- power -->
+    <dimen name="monitor_list_item_image">44.0dip</dimen>
+    <dimen name="monitor_list_item_image_margin_right">15.0dip</dimen>
+    <dimen name="mode_list_item_height">52.0dip</dimen>
+    <dimen name="monitor_button_margin_left">10.0dip</dimen>
+    <dimen name="monitor_item_text_size">14.0sp</dimen>
+    <dimen name="monitor_item_text_size_small">12.0sp</dimen>
+    <dimen name="monitor_list_item_percent_margin_left">6.0dip</dimen>
+    <dimen name="monitor_button_text_padding_two">12.0dip</dimen>
+    <dimen name="monitor_button_text_size">14.0sp</dimen>
+    <dimen name="list_item_margin_left_right">10.0dip</dimen>
+    <!-- saver -->
+    <dimen name="mode_list_line">3.0px</dimen>
+    <!-- main title -->
+    <dimen name="title_height">47.5dip</dimen>
+    <dimen name="title_button_width">48.0dip</dimen>
+    <dimen name="title_text_left_margin">21.0dip</dimen>
+    <dimen name="title_indicator_height">45.0dip</dimen>
+    <!-- personal center -->
+    <dimen name="personal_center_padding_left">35.0dip</dimen>
+    <dimen name="personal_center_padding">15.0dip</dimen>
+    <dimen name="personal_center_margin_top">10.0dip</dimen>
+    <dimen name="personal_center_account_margin_top">16.0dip</dimen>
+    <dimen name="personal_center_model_padding">6.0dip</dimen>
+    <dimen name="personal_center_account_size">18.0dip</dimen>
+    <dimen name="personal_center_phone_model_margin_top">18.0dip</dimen>
+    <dimen name="personal_center_button_height">35.0dip</dimen>
+    <dimen name="personal_center_coin_size">15.0dip</dimen>
+    <dimen name="personal_center_button_margin">3.0dip</dimen>
+    <dimen name="personal_center_button_text_size">12.0dip</dimen>
+    <dimen name="personal_center_divider">1.0dip</dimen>
+    <dimen name="personal_center_divider_margin_bottom">12.0dip</dimen>
+    <dimen name="personal_center_divider_margin_top">16.0dip</dimen>
+    <dimen name="personal_center_archievement_margin">5.0dip</dimen>
+    <dimen name="personal_center_archievement_size">12.0dip</dimen>
+    <!-- mode -->
+    <dimen name="list_item_point_padding">13.0dip</dimen>
+    <dimen name="mode_list_item_margin_top_bottom">4.0dip</dimen>
+    <dimen name="mode_list_item_title_text_size">14.0sp</dimen>
+    <dimen name="mode_list_item_content_text_size">11.0sp</dimen>
+    <dimen name="edit_padding_right">8.0dip</dimen>
+    <dimen name="mode_narmal_arrow_width">35dip</dimen>
+    <dimen name="mode_setting_dialog_pading">25dip</dimen>
+    <dimen name="new_mode_title_margin_left_right">15.0dip</dimen>
+    <dimen name="new_mode_title_margin_top_bottom">10.0dip</dimen>
+    <dimen name="new_mode_title_text_size">15.0sp</dimen>
+    <dimen name="new_mode_title_buttoms_margin">10.0dip</dimen>
+    <dimen name="list_item_height">42.0dip</dimen>
+    <dimen name="list_mode_setting_item_height">33.0dip</dimen>
+    <dimen name="new_mode_title_item_value_array_margin">10.0dip</dimen>
+    <dimen name="new_mode_title_item_value_text_size">13.0sp</dimen>
+    <dimen name="dialog_list_margin_left_right">23.0dip</dimen>
+    <dimen name="dialog_list_text_size">14.0sp</dimen>
+    <dimen name="dialog_title_text_size">21.0sp</dimen>
+    <dimen name="dialog_title_correct_margin">-3.0dip</dimen>
+    <!-- schedule -->
+    <dimen name="schedule_time_picker_width">150dp</dimen>
+    <dimen name="schedule_item_margin_top">15dp</dimen>
+    <!-- dialog -->
+    <dimen name="dialog_min_height">90.0dip</dimen>
+    <dimen name="dialog_button_margin_bottom">12.0dip</dimen>
+    <dimen name="dialog_button_margin_left_right">12.0dip</dimen>
+    <dimen name="dialog_button_text_size">16.0sp</dimen>
+    <dimen name="dialog_buttons_margin">6.0dip</dimen>
+    <dimen name="dialog_content_margin_left_right">17.0dip</dimen>
+    <dimen name="dialog_button_height">50dp</dimen>
+    <!-- optimize -->
+    <dimen name="optimize_magin_bottom">50dp</dimen>
+</resources>

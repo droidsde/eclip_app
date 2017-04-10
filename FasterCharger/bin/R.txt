@@ -1150,6 +1150,7 @@ int string store_picture_message 0x7f080017
 int string store_picture_title 0x7f080016
 int string temprature 0x7f080051
 int string upgrade_text 0x7f080039
+int string url_app 0x7f080054
 int string voltage 0x7f08004f
 int string wDone 0x7f08003e
 int string wallet_buy_button_place_holder 0x7f080038

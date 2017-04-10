@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/home_switch_button_height"
+    android:background="@color/switch_buttons_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/buttons_tip"
+        style="@style/switch_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginTop="4.0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@id/shortcut_linear_wifi"
+            android:background="@color/tab_main_indecator_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/settings_app_wifi_off" />
+
+            <TextView
+                android:id="@id/shortcut_txt_wifi"
+               	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                style="@style/switch_item"
+                android:text="@string/wifi_text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/shortcut_linear_data"
+            android:layout_width="0.0dip"
+            android:background="@color/tab_main_indecator_bg"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:src="@drawable/settings_app_data_off" />
+
+            <TextView
+                android:id="@id/shortcut_txt_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                style="@style/switch_item"
+                android:text="@string/data_text"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/shortcut_linear_screen"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:background="@color/tab_main_indecator_bg"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical" >
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:src="@drawable/setttings_app_screen_light_10" />
+
+            <TextView
+                android:id="@id/shortcut_txt_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                style="@style/switch_item"
+                android:text="@string/screen_text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/shortcut_linear_volume"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:background="@color/tab_main_indecator_bg"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_volume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:src="@drawable/settings_app_volume_0" />
+
+            <TextView
+                android:id="@id/shortcut_txt_volume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                style="@style/switch_item"
+                android:text="@string/volume_text"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginBottom="5.0dip"
+        
+        android:layout_weight="1.0"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/shortcut_linear_bluetooth"
+            android:background="@color/tab_main_indecator_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_bluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:src="@drawable/settings_app_bluetooth_off" />
+
+            <TextView
+                android:id="@id/shortcut_txt_bluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_item"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/bluetooth" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/shortcut_linear_gps"
+            android:background="@color/tab_main_indecator_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true" >
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:src="@drawable/settings_app_gps_off" />
+
+            <TextView
+                android:id="@id/shortcut_txt_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_item"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/gps_text" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/shortcut_linear_screen_timeout"
+            android:background="@color/tab_main_indecator_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true" >
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_screen_timeout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:src="@drawable/settings_app_screen_timeout_15s" />
+
+            <TextView
+                android:id="@id/shortcut_txt_screen_timeout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_item"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/screen_timeout" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@id/shortcut_linear_airplane"
+            android:background="@color/tab_main_indecator_bg"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.RorateImageView
+                android:id="@id/shortcut_img_airplane"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:src="@drawable/settings_app_airplane_off" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/switch_item"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/clock_mode" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

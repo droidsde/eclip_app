@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llBatterymain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     
+    android:background="@drawable/fragment_bkg">
+    
+    
+
+    <LinearLayout
+        android:id="@+id/llbtcharge"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:padding="7dp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="05dip"
+                android:layout_marginLeft="05dip"
+                android:layout_marginRight="05dip"
+                android:layout_marginTop="05dip"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/llbetteryimage"
+                    android:layout_width="128dip"
+                    android:layout_height="70dip"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="02dip"
+                    android:layout_marginTop="02dip"
+                    android:background="@drawable/betteryimage_click"
+                    android:orientation="vertical"
+                    android:paddingTop="03dip"
+                    android:paddingLeft="08dip"
+                    android:paddingStart="08dip"
+                    android:paddingRight="0dip"
+                    android:paddingEnd="0dip" >
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" >
+
+                        <FrameLayout
+                            android:id="@+id/llfillrect"
+                            android:layout_width="108dip"
+                            android:layout_height="64dip"
+                            android:background="@drawable/gradient_battery_icon_fill_color" >
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/txtbattery_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginStart="10dip"
+                            android:gravity="start"
+                            android:text="0%"
+                            android:textColor="#FAFAFA"
+                            android:textStyle="bold" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgchargeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginStart="10dip"
+                    android:gravity="end"
+                    android:src="@drawable/usb_32" />
+
+                <TextView
+                    android:id="@+id/txtimgchargeicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginStart="20dip"
+                    android:gravity="end"
+                    android:text="USB" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="30dp"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/ll_optionview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    layout="@layout/charge_options"
+                    android:gravity="bottom" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5" >
+
+            <com.batterydoctor.superfastcharger.fastcharger.fastercharger.ProgressWheel
+                android:id="@+id/progressBarTwo"
+                android:layout_width="@dimen/sizeprocess"
+                android:layout_height="@dimen/sizeprocess"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerInParent="true"
+                ProgressWheel:barColor="@color/primary"
+                ProgressWheel:contourColor="@color/primary"
+                ProgressWheel:textColor="@color/primary"
+                ProgressWheel:textSize="0.0sp" />
+
+            <TextView
+                android:id="@+id/startCharging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/primary"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <LinearLayout
+        android:id="@+id/lineAds1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    </LinearLayout>
+
+</LinearLayout>

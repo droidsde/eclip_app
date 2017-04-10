@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/toolbox_apps_listview_item_height"
+    android:background="@drawable/list_selecter" >
+
+    <FrameLayout
+        android:id="@id/toolbox_apps_listitem_area_icon"
+        android:layout_width="@dimen/toolbox_apps_listview_item_icon_size"
+        android:layout_height="@dimen/toolbox_apps_listview_item_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/toolbox_apps_gridview_icon_margin_top"
+        android:layout_marginTop="@dimen/toolbox_apps_listview_item_icon_margin_top" >
+
+        <ImageView
+            android:id="@id/toolbox_apps_listitem_icon"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/toolbox_apps_listitem_icon_installed"
+            android:layout_width="@dimen/toolbox_apps_gridview_item_icon_installed_size"
+            android:layout_height="@dimen/toolbox_apps_gridview_item_icon_installed_size"
+            android:layout_gravity="bottom|right|center"
+            android:scaleType="fitXY"
+            android:src="@drawable/simple_blue_tick_hi" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/toolbox_apps_listitem_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/toolbox_apps_listview_item_text_margin_left"
+        android:layout_marginRight="@dimen/toolbox_apps_listview_item_text_margin_right"
+        android:layout_marginTop="@dimen/toolbox_apps_listview_item_text_name_margin_top"
+        android:layout_toRightOf="@id/toolbox_apps_listitem_area_icon"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/toolbox_apps_listview_item_text_name_color"
+        android:textSize="@dimen/toolbox_apps_listview_item_text_name_size" />
+
+    <TextView
+        android:id="@id/toolbox_apps_listitem_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbox_apps_listitem_name"
+        android:layout_marginLeft="@dimen/toolbox_apps_listview_item_text_margin_left"
+        android:layout_marginRight="@dimen/toolbox_apps_listview_item_text_margin_right"
+        android:layout_marginTop="@dimen/toolbox_apps_listview_item_text_desc_margin_top"
+        android:layout_toRightOf="@id/toolbox_apps_listitem_area_icon"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/toolbox_apps_listview_item_text_desc_color"
+        android:textSize="@dimen/toolbox_apps_listview_item_text_desc_size" />
+
+</RelativeLayout>

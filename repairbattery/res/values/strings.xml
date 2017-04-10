@@ -50,7 +50,7 @@
     <string name="ProgressPaddingSample">Progress Padding Sample</string>
     <string name="CustomSelectorSample">Custom Selector Sample</string>
     
-
+	<string name="url_app">https://play.google.com/store/apps/details?id=fastCharger.BatteryFixes.repairbattery</string>
     <array name="sample_list">
         <item>@string/IndeterminateProgressSample</item>
         <item>@string/IntegerProgressSample</item>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#FAFAFA"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox 
+        android:textSize="20.0sp" 
+        android:id="@+id/checkBox1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="24.0dip" 
+        android:layout_marginTop="27.0dip" 
+        android:text="@string/openfastcharger"
+        android:textColor="#058392" 
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentTop="true" />
+    <TextView 
+        android:textSize="15.0sp" 
+        android:id="@+id/textView1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="35.0dip" 
+        android:layout_marginRight="25.0dip"
+        android:textColor="#7d7d7d" 
+        android:text="@string/openfastchargernotifocation" 
+        android:layout_below="@+id/checkBox1" />
+    <CheckBox android:textSize="20.0sp" 
+        android:id="@+id/checkBox2" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="18.0dip" 
+        android:text="@string/notificationsound"
+        android:textColor="#058392"
+        android:layout_below="@+id/textView1" 
+        android:layout_alignLeft="@+id/checkBox1" />
+    <TextView 
+        android:textSize="15.0sp" 
+        android:id="@+id/textView2" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="25.0dip" 
+        android:textColor="#7d7d7d"
+        android:text="@string/notificationsoundde" 
+        android:layout_below="@+id/checkBox2" 
+        android:layout_alignLeft="@+id/textView1" />
+     <CheckBox android:textSize="20.0sp" 
+        android:id="@+id/checkBox3" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="18.0dip" 
+        android:text="@string/fullbattery" 
+        android:textColor="#058392"
+        android:layout_below="@+id/textView2" 
+        android:layout_alignLeft="@+id/checkBox2" />
+    <TextView 
+        android:textSize="15.0sp" 
+        android:id="@+id/textView3" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="25.0dip" 
+        android:textColor="#7d7d7d"
+        android:text="@string/fullbatterynoti" 
+        android:layout_below="@+id/checkBox3" 
+        android:layout_alignLeft="@+id/textView1" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3"
+        android:text="Ok" />
+    
+</RelativeLayout>

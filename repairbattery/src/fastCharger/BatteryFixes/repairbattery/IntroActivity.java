@@ -25,22 +25,31 @@ public class IntroActivity extends AppCompatActivityAds {
         button = (Button) findViewById(R.id.button);
         button.setText("Loading...");
         WsetAdmobId("ca-app-pub-7232493315188211/9258021084","ca-app-pub-7232493315188211/1734754282");
+        
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-            	button.setText("Start");
-            	button.setOnClickListener(new View.OnClickListener() {
-					
-					@Override
-					public void onClick(View v) {
-						WloadAdsInterstitial();
-						Intent mIntent = new Intent(IntroActivity.this,MainActivity.class);
-		                IntroActivity.this.startActivity(mIntent);
-		                IntroActivity.this.finish();
-					}
-				});
+                	button.setText("Start");
+                	WloadAdsInterstitial();
+                	button.setOnClickListener(new View.OnClickListener() {
+        				@Override
+        				public void onClick(View v) {
+        					
+        					new Handler().postDelayed(new Runnable(){
+        			            @Override
+        			            public void run() {
+        						Intent mIntent = new Intent(IntroActivity.this,MainActivity.class);
+            	                IntroActivity.this.startActivity(mIntent);
+            	                IntroActivity.this.finish();
+        					
+        			            }
+        			        }, 1900);
+        				}
+        			});
+                
             }
-        }, 1000);
+        }, 300);
+        
     }
 
 }

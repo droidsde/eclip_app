@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- error -->
+    <string name="error_title">Error</string>
+    <string name="error_json_excepton">Please clear data this app, and try again!</string>
+    <string name="error_the_time_match">Match Time!</string>
+    <!-- battery saver -->
+    <string name="title_tab_home">Smart Battery Saver</string>
+    <string name="title_tab_toolbox">Quick charger</string>
+    <string name="title_tab_monitor">Monitor</string>
+    <string name="title_tab_saver">Battery Saver</string>
+    <!-- home -->
+    <string name="app_name">Fast Charger 3.1</string>
+    <string name="battery_info_value_timer_left">Time left:</string>
+    <string name="battery_info_value_charging_timer_left">Charging time left:</string>
+    <string name="battery_info_value_unknown">Unknown</string>
+    <string name="power_consumption_analysis">OPTIMIZE</string>
+    <string name="battery_chart_empty_text">Battery Usage will be displayed here</string>
+    <string name="home_digital_time_hour">h</string>
+    <string name="home_digital_time_minute">m</string>
+    <string name="home_status_battery_full">Battery is full, please disconnect!</string>
+    <!-- power -->
+    <string name="apps_usage_stop_app">Stop</string>
+    <string name="apps_usage_stoped_app">Stoped</string>
+    <string name="apps_usage_running_app">Running</string>
+    <string name="apps_open_usage">Battery Usage</string>
+    <string name="apps_refresh">Refresh</string>
+    <!-- tab -->
+    <string name="tab_home">Battery</string>
+    <string name="tab_saver">Saver</string>
+    <string name="tab_saver_mode">Mode</string>
+    <string name="tab_saver_smart">Smart</string>
+    <string name="tab_monitor_apps">Apps</string>
+    <string name="tab_monitor_hardware">Hardware</string>
+    <string name="tab_monitor_process">Process</string>
+    <string name="tab_monitor_service">Service</string>
+    <string name="tab_tool">Quick charger</string>
+    <string name="tab_monitor">Monitor</string>
+    <!-- swithc button -->
+    <string name="turning_on">Turning on &#8230;</string>
+    <string name="turning_off">Turning off &#8230;</string>
+    <string name="screen_text">Brightness</string>
+    <string name="sync_text">Sync</string>
+    <string name="gps_text">GPS</string>
+    <string name="data_text">Data</string>
+    <string name="wifi_text">WiFi</string>
+    <string name="bluetooth_text">Bluetooth</string>
+    <string name="volume_text">Volume</string>
+    <string name="screen_rorate_text">Rotation</string>
+    <string name="vibrator">Vibration</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="silent">Silence</string>
+    <string name="screen_timeout">Timeout</string>
+    <string name="clock_mode">Airplane Mode</string>
+    <!-- personal -->
+    <string name="personal_title">Personal</string>
+    <string name="personal_center_rate">Rate</string>
+    <string name="personal_center_achievement">Achievements:</string>
+    <string name="celsius">℃</string>
+    <string name="fahrenheit">°F</string>
+    <string name="voltage_unit">V</string>
+    <string name="battery_info_capacity">Capacity</string>
+    <string name="battery_info_voltage">Voltage</string>
+    <string name="battery_info_technology">Technology</string>
+    <string name="battery_info_temperature">Temperature</string>
+    <string name="battery_info_value_1">&lt;font color=\"#5ec5f9\">%1$s</string>
+    <string name="battery_info_value_2">&lt;font color=\"#5ec5f9\">%1$s&lt;/font> %2$s</string>
+    <string name="battery_info_value_3">&lt;font color=\"#f52e1f\">%1$s&lt;/font> %2$s</string>
+    <!--  -->
+    <string name="service_name">Battery Saver Service</string>
+    <string name="no_internet">please! check connect internet.</string>
+    <!-- mode -->
+    <string name="mode_newmode_add_new">Add Mode</string>
+    <string name="mode_newmode_edit_new">Edit Mode</string>
+    <string name="mode_label_longest_standby">Long</string>
+    <string name="mode_label_general_standby">General</string>
+    <string name="mode_label_sleep_standby">Sleep</string>
+    <string name="mode_mymode">My mode</string>
+    <string name="mode_add_new">Add New</string>
+    <string name="mode_longest_detail">Calls, SMS - On; Mobile Data - Off</string>
+    <string name="mode_general_detail">Calls, SMS, Mobile Data - On; Wi-Fi - Off</string>
+    <string name="mode_sleep_detail">Clock, Alarm - On; Calls, SMS, Data - Off</string>
+    <string name="mymode_detail">Save the current settings</string>
+    <string name="mode_newmode_save">Save</string>
+    <string name="mode_newmode_cancel">Cancel</string>
+    <string name="mode_newmode_screen_setting">Screen Brightness</string>
+    <string name="mode_newmode_screen_timeout_setting">Screen Timeout</string>
+    <string name="mode_newmode_wifinet_switch">Wi-Fi</string>
+    <string name="mode_newmode_mobiledata_switch">Mobile Data</string>
+    <string name="mode_newmode_bluetooth_switch">Bluetooth</string>
+    <string name="mode_newmode_gps_switch">GPS</string>
+    <string name="mode_newmode_ariplane_switch">Airplane</string>
+    <string name="mode_newmode_volume_switch">Volume</string>
+    <string name="mode_setting_value_auto">Auto</string>
+    <string name="mode_brightness_percent_100">100%</string>
+    <string name="mode_brightness_percent_50">50%</string>
+    <string name="mode_brightness_percent_40">40%</string>
+    <string name="mode_brightness_percent_30">30%</string>
+    <string name="mode_brightness_percent_20">20%</string>
+    <string name="mode_brightness_percent_0">0%</string>
+    <string name="mode_sreen_timeout_15sec">15 secs</string>
+    <string name="mode_sreen_timeout_30sec">30 secs</string>
+    <string name="mode_sreen_timeout_1min">1 min</string>
+    <string name="mode_sreen_timeout_2min">2 mins</string>
+    <string name="mode_sreen_timeout_10min">10 mins</string>
+    <string name="mode_sreen_timeout_30min">30 mins</string>
+    <string name="mode_on">On</string>
+    <string name="mode_off">Off</string>
+    <string name="mode_newmode_name">Customize</string>
+    <string name="mode_newmode_name_setting_hint">Mode name:</string>
+    <!-- schdele -->
+    <string name="schedule_newshedule_add_new">Add Schedule</string>
+    <string name="schedule_newshedule_edit_new">Edit Schedule</string>
+    <string name="schedule_newshedule_timepicker_repeat">Repeat</string>
+    <string name="schedule_newshedule_timepicker_work">Work</string>
+    <string name="schedule_newshedule_timepicker_start">Start</string>
+    <string name="schedule_newshedule_timepicker_stop">End</string>
+    <string name="schedule_newshedule_text_monday">Monday</string>
+    <string name="schedule_newshedule_text_tuesday">Tuesday</string>
+    <string name="schedule_newshedule_text_wednesday">Wednesday</string>
+    <string name="schedule_newshedule_text_thurday">Thurday</string>
+    <string name="schedule_newshedule_text_friday">Friday</string>
+    <string name="schedule_newshedule_text_saturday">Saturday</string>
+    <string name="schedule_newshedule_text_sunday">Sunday</string>
+    <string name="schedule_newshedule_text_mon">Mon</string>
+    <string name="schedule_newshedule_text_tue">Tue</string>
+    <string name="schedule_newshedule_text_wed">Wed</string>
+    <string name="schedule_newshedule_text_thu">Thu</string>
+    <string name="schedule_newshedule_text_fri">Fri</string>
+    <string name="schedule_newshedule_text_sat">Sat</string>
+    <string name="schedule_newshedule_text_sun">Sun</string>
+    <string name="schedule_newshedule_text_everyday">EveryDay</string>
+    <string name="schedule_newshedule_text_workDay">WorkDay</string>
+    <string name="dialog_title_slect_mode">Select Mode</string>
+    <!-- dialog -->
+    <string name="dialog_delete_item_title">Delete Mode</string>
+    <string name="dialog_delete_item_message">Are you sure? Deleted mode is unrecoverable</string>
+    <string name="update_dialog_never_display">"Don't ask me next time"</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_title_default">NOTE</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="dialog_message_default">The function being development</string>
+    <string name="dialog_message_mode_exits">The name mode exits!</string>
+    <string name="dialog_message_mode_Invalid">The name Invalid!</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_change">Change</string>
+    <string name="dialog_notify_title">Notification</string>
+    <string name="dialog_waring_stop">If you force stop a process, it may misbehave</string>
+    <string name="dialog_need_root">The device need user permissions to stop this process</string>
+    <string name="progress_loading">Loading...</string>
+    <!-- optimize activity -->
+    <string name="optimize_title">Optimize</string>
+    <string name="optimize_save_now">Save now</string>
+    <string name="optimize_saving">Saving</string>
+    <string name="optimize_go_back">Great.Go Back</string>
+    <string name="optimize_running_apps">Running Apps</string>
+    <string name="optimize_ram_info">Ram infos</string>
+    <string name="optimize_running_apps_stops">Running Apps Stoped</string>
+    <string name="optimize_using_supper_user">Using SupperUser</string>
+    <string name="optimize_using_root">Using root to clean better</string>
+    <string name="optimize_running_status">Will be stopped</string>
+    <string name="optimize_memory">Memory</string>
+    <string name="optimize_clear_apps">finished!</string>
+    <string name="title_activity_new_tabbed">NewTabbedActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="USB">USB</string>
+    <string name="Waiting">Waiting</string>
+    <string name="Continuous_Charge">Full Charge</string>
+    <string name="Fast_Charge">Fast Charge</string>
+    <string name="Trickle_Charge">Trickle Charge</string>
+    <string name="Finished">Finished</string>
+    <string name="Ongoing">Ongoing</string>
+    
+    <string name="setting">Setting</string>
+    <string name="rateapp">Rate app</string>
+    <string name="feedback">Send feedback</string>
+    <string name="about">About</string>
+    <string name="otherapp">Other app</string>
+    <string name="openfastcharger">Open fast charger</string>
+    <string name="openfastchargernotifocation">(Auto open fast charger when plug in)</string>
+    <string name="notificationsound">Notification Sound</string>
+    <string name="notificationsoundde">(Notification ringtone is played if this option is checked)</string>
+    <string name="fullbattery">Battery Full Alert</string>
+    <string  name ="fullbatterynoti">(Plays battery full message every 5 minutes)</string>
+ 	<string name="ad_unit_banner">ca-app-pub-7887468927194397/5041585466</string>
+   
+	
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:power="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fragment_bkg"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/home_area_padding_left_right"
+        android:paddingRight="@dimen/home_area_padding_left_right"
+        android:weightSum="1000.0" >
+
+        <RelativeLayout
+            android:id="@id/home_top_area"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="@integer/home_top_area_weight"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@id/battery_graph_w"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical" >
+
+                <com.batterydoctor.superfastcharger.fastcharger.ui.MyBatteryGraph
+                    android:id="@id/battery_graph"
+                    android:layout_width="@dimen/battery_capacity_width"
+                    android:layout_height="@dimen/battery_capacity_height"
+                    android:gravity="bottom" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/battery_graph_w"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@id/battery_info_remaining_time_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/battery_info_value_timer_left"
+                    android:textColor="@color/home_remaining_time_label_color"
+                    android:textSize="@dimen/home_remaining_time_text_size" />
+
+                <RelativeLayout
+                    android:id="@id/battery_info_remaining_time_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/battery_info_remaining_time_label" >
+
+                    <!--
+         <TextView
+                        android:id="@id/power_home_float_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/flash_bkg"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/power_home_float_text_padding_left"
+                        android:paddingRight="@dimen/power_home_float_text_padding_left"
+                        android:textColor="@color/power_home_float_text_color"
+                        android:textSize="@dimen/power_home_float_text_size"
+                        android:visibility="invisible" />
+                    -->
+
+                    <TextView
+                        android:id="@id/status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/home_status_battery_full"
+                        android:visibility="gone"
+                        android:textAppearance="@style/font_main_tab_fragment"/>
+
+                    <com.batterydoctor.superfastcharger.fastcharger.ui.MyTimeDisplayDigital
+                        android:id="@id/battery_info_remaining_time_value"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        power:digital_margin_right="@dimen/digital_unit_margin_left"
+                        power:digital_size="@dimen/big_digit"
+                        power:unit_margin_right="@dimen/digital_unit_margin_right"
+                        power:unit_size="@dimen/digital_unit_size" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@id/power_consumption_analysis_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/home_optimize_button_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/battery_info_remaining_time_content"
+                    android:layout_marginTop="@dimen/home_battery_remain_time_value_button_margin"
+                    android:background="@drawable/power_analysis_button"
+                    android:gravity="center"
+                    android:text="@string/power_consumption_analysis"
+                    android:textColor="@color/home_optimize_button_color"
+                    android:textSize="@dimen/home_onekey_button_text"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.batterydoctor.superfastcharger.fastcharger.ui.MyBatteryInfoDetails
+            android:id="@id/home_mid_area"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="@integer/home_mid_area_weight"
+            android:orientation="horizontal" >
+        </com.batterydoctor.superfastcharger.fastcharger.ui.MyBatteryInfoDetails>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="@integer/home_bottom_area_weight" >
+
+            <com.batterydoctor.superfastcharger.fastcharger.ui.MyHistoryChartView
+                android:id="@id/chart"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/home_history_margin_bottom"
+                android:paddingTop="@dimen/home_history_margin_top" />
+
+            <TextView
+                android:id="@id/power_chart_empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="@string/battery_chart_empty_text"
+                android:textColor="@color/charger_curve_chart_empty_text_color"
+                android:textSize="@dimen/charger_curve_chart_empty_text_size"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/switchHandle"
+        android:layout_width="180.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/drawer_handle_selector" />
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PopupMenu" >
+
+     <item
+        android:id="@+id/actionsetting"
+        android:icon="@drawable/ic_action_setting"
+        android:showAsAction="always"
+        android:title="@string/setting"/>
+    <item
+        android:id="@+id/actionRate"
+        android:icon="@drawable/like_us"
+        android:title="@string/rateapp"/>
+    <item
+        android:id="@+id/actionFeedback"
+        android:icon="@drawable/feedback"
+        android:title="@string/feedback"/>
+    <item
+        android:id="@+id/actionAbout"
+        android:icon="@drawable/about"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/actionOther"
+        android:icon="@drawable/other_app"
+        android:title="@string/otherapp"/>
+
+</menu>

@@ -4570,6 +4570,7 @@ loangcircle
         public static final int temperature=0x7f0b005e;
         public static final int two=0x7f0b005b;
         public static final int upgrade_text=0x7f0b0043;
+        public static final int url_app=0x7f0b0076;
         public static final int wDone=0x7f0b0048;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 

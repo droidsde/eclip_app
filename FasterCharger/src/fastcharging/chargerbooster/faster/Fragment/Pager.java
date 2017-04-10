@@ -176,22 +176,35 @@ public class Pager extends Fragment {
     }
 
     public void turnOff1(){
-        if(ChargerSetting.readSttKillProcess(getActivity())){
-            killApps(getActivity());
-        }
+    	try {
+    		if(ChargerSetting.readSttKillProcess(getActivity())){
+                killApps(getActivity());
+            }
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+        
 
     }
 
     public void turnOff2()
     {
-        if(ChargerSetting.readSttBL(getActivity())){
-            BluetoothAdapter btEnable = BluetoothAdapter.getDefaultAdapter();
-            btEnable.disable();
-        }
-        if(ChargerSetting.readSttWF(getActivity())){
-            ((WifiManager)getActivity().getSystemService(getActivity().WIFI_SERVICE)).setWifiEnabled(false);
-        }
+    	try {
+    		if(ChargerSetting.readSttBL(getActivity())){
+                BluetoothAdapter btEnable = BluetoothAdapter.getDefaultAdapter();
+                if(btEnable!=null){
+                	btEnable.disable();
+                }
+                
+            }
+            if(ChargerSetting.readSttWF(getActivity())){
+                ((WifiManager)getActivity().getSystemService(getActivity().WIFI_SERVICE)).setWifiEnabled(false);
+            }
 
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+        
     }
 
     private void setMobileDataEnabled(Context context, boolean enabled) {
@@ -214,18 +227,23 @@ public class Pager extends Fragment {
     }
 
     public void killApps(Context paramContext){
-        List localList = paramContext.getPackageManager().getInstalledApplications(0);
-        ActivityManager localActivityManager = (ActivityManager)paramContext.getSystemService(Context.ACTIVITY_SERVICE);
-        Iterator localIterator = localList.iterator();
-        while (true){
-            if (!localIterator.hasNext()){
-                return;
+    	try {
+    		List localList = paramContext.getPackageManager().getInstalledApplications(0);
+            ActivityManager localActivityManager = (ActivityManager)paramContext.getSystemService(Context.ACTIVITY_SERVICE);
+            Iterator localIterator = localList.iterator();
+            while (true){
+                if (!localIterator.hasNext()){
+                    return;
+                }
+                ApplicationInfo localApplicationInfo = (ApplicationInfo)localIterator.next();
+                if (localApplicationInfo.packageName.equals(paramContext.getPackageName()))
+                    continue;
+                localActivityManager.killBackgroundProcesses(localApplicationInfo.packageName);
             }
-            ApplicationInfo localApplicationInfo = (ApplicationInfo)localIterator.next();
-            if (localApplicationInfo.packageName.equals(paramContext.getPackageName()))
-                continue;
-            localActivityManager.killBackgroundProcesses(localApplicationInfo.packageName);
-        }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+        
     }
 
 

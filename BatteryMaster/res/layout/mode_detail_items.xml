@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/setting_value_item"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/list_mode_setting_item_height">
+
+    <TextView
+        android:id="@id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_mode_setting_item_height"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dialog_list_margin_left_right"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/mode_nomal_color"
+        android:textSize="@dimen/dialog_list_text_size" />
+	<TextView android:id="@id/value"
+	    android:layout_width="wrap_content"
+	    android:layout_alignParentRight="true"
+        android:layout_height="@dimen/list_mode_setting_item_height"
+        android:layout_marginRight="@dimen/dialog_list_margin_left_right"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/mode_nomal_color"
+        android:textSize="@dimen/dialog_list_text_size"/>
+
+</RelativeLayout>

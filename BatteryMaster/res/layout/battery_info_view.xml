@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/history_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@id/battery_info_one"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/battery_info_one_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_summary" />
+
+        <TextView
+            android:id="@id/battery_info_one_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_value" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/battery_info_dividor_first"
+        android:layout_width="5.0px"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/home_battery_info_view_sep_margin_bottom"
+        android:layout_marginTop="@dimen/home_battery_info_view_sep_margin_top"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/battery_info_view_sep" />
+
+    <LinearLayout
+        android:id="@id/battery_info_two"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/battery_info_two_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_summary" />
+
+        <TextView
+            android:id="@id/battery_info_two_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_value" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/battery_info_dividor_secend"
+        android:layout_width="5.0px"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/home_battery_info_view_sep_margin_bottom"
+        android:layout_marginTop="@dimen/home_battery_info_view_sep_margin_top"
+        android:background="@drawable/battery_info_view_sep"
+        android:contentDescription="@string/app_name" />
+    <LinearLayout
+        android:id="@id/battery_info_three"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/battery_info_three_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_summary" />
+
+        <TextView
+            android:id="@id/battery_info_three_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_value" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/battery_info_dividor_three"
+        android:visibility="gone"
+        android:layout_width="5.0px"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/home_battery_info_view_sep_margin_bottom"
+        android:layout_marginTop="@dimen/home_battery_info_view_sep_margin_top"
+        android:background="@drawable/battery_info_view_sep"
+        android:contentDescription="@string/app_name" />
+    <LinearLayout
+        android:id="@id/battery_info_four"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/battery_info_four_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_summary" />
+
+        <TextView
+            android:id="@id/battery_info_four_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textAppearance="@style/battery_info_view_value" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -22,5 +22,7 @@
     <string name="banner_ad_unit_id">111</string>
     
     <string name="intro">USA Mobile Lab</string>
+    
+    <string name="url_app">https://play.google.com/store/apps/details?id=fastcharging.chargerbooster.faster</string>
 
 </resources>

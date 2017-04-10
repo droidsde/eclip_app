@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.batterydoctor.superfastcharger.fastcharger"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    
+
+    <supports-screens
+        android:largeScreens="false"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="false" />
+
+    <application
+        android:name="com.batterydoctor.superfastcharger.fastcharger.PowerManagerApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.PowerMgrTabActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.PowerManagerTab" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.MonitorActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.PowerBatteryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.SaverActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.ToolboxActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.PersonalActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.mode.NewModeActivity"
+               android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.shedule.NewScheduleActivity"     
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".optimize.OptimizeActivity"
+                  android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="com.batterydoctor.superfastcharger.fastcharger.receiver.ReceiverStatusBattery">       
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.batterydoctor.superfastcharger.fastcharger.receiver.AlarmReceiver">
+               </receiver>
+        <receiver android:name="com.batterydoctor.superfastcharger.fastcharger.receiver.AlarmModeReceiver">
+                  <intent-filter>
+                <action android:name="com.nvn.powermanager.ALARMSWITCH" />
+                <action android:name="com.nvn.powermanager.ALARMRESTORE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.batterydoctor.superfastcharger.fastcharger.service.AppService"
+                    android:exported="false"
+            android:label="@string/service_name" />
+
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+
+        <receiver android:name=".fastercharger.ChargeReceiver">
+                    <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+   
+
+        <activity
+            android:name="com.batterydoctor.superfastcharger.fastcharger.SettingActivity" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/switchlayout"
+            layout="@layout/switch_buttons" />
+
+        <com.batterydoctor.superfastcharger.fastcharger.ui.MyScroolRelativeLayout
+            android:id="@+id/statusMainLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:isScrollContainer="true" >
+
+            <include
+                android:id="@+id/homelayout"
+                layout="@layout/power_home_layout" />
+        </com.batterydoctor.superfastcharger.fastcharger.ui.MyScroolRelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

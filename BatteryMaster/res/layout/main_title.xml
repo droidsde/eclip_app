@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@drawable/title_bar_bg">
+    <ImageView
+        android:id="@id/main_title_left_button"
+        android:layout_width="@dimen/title_button_width"
+        android:layout_height="fill_parent"
+        android:background="@drawable/btn_title_bar_left"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center" />
+	<View
+        android:id="@id/space_holder"
+        android:layout_width="@dimen/title_text_left_margin"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/main_title_left_button" />
+	<TextView 
+	    android:id="@id/main_title_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_centerVertical="true"
+	    android:gravity="center_vertical"
+	    android:singleLine="true"
+	    android:ellipsize="end"
+	    android:textAppearance="@style/font_main_title"
+	    android:layout_toRightOf="@id/space_holder"
+	    android:layout_toLeftOf="@id/main_title_right_button"
+	    android:textStyle="bold"/>
+	<TextView
+        android:id="@id/middle_text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/title_button_width"
+        android:layout_toRightOf="@id/space_holder"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textAppearance="@style/font_main_title"
+        android:textStyle="bold"/>
+	<ImageButton
+        android:id="@+id/ibSettings"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/menu_icon"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center" />
+</RelativeLayout>

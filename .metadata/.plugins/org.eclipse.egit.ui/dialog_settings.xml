@@ -4,4 +4,7 @@
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/florent37/MaterialViewPager"/>
 	</list>
+	<section name="GitCommitSearchPage">
+		<item value="0" key="HISTORY_SIZE"/>
+	</section>
 </section>

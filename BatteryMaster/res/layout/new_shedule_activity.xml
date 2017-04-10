@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fragment_bkg"
+    android:orientation="vertical" >
+
+    <com.batterydoctor.superfastcharger.fastcharger.ui.MainTitle
+        android:id="@+id/shedule_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.batterydoctor.superfastcharger.fastcharger.ui.MainTitle>
+
+    <ScrollView
+        android:id="@id/newmode_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:id="@id/newmode_setting_items"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/newmode_start"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/history_bg"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/schedule_newshedule_timepicker_start"
+                    android:textColor="@color/home_optimize_button_color"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/new_mode_title_text_size" />
+
+                <TimePicker
+                    android:id="@+id/timerPickerStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp" />
+
+                <RelativeLayout
+                    android:id="@+id/typestart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/timerPickerStart"
+                    android:background="@drawable/mode_list_item_bkg"
+                    android:minHeight="@dimen/list_item_height" >
+
+                    <ImageView
+                        android:id="@id/arrow"
+                        android:layout_width="@dimen/mode_narmal_arrow_width"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/charge_page_button_right_normal" />
+
+                    <TextView
+                        android:id="@+id/labelstart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/mode_nomal_color"
+                        android:textSize="@dimen/mode_list_item_title_text_size" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/newmode_stop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/history_bg"
+               	android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/schedule_newshedule_timepicker_stop"
+                    android:textColor="@color/home_optimize_button_color"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/new_mode_title_text_size" />
+
+                <TimePicker
+                    android:id="@+id/timerPickerStop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp" />
+
+                <RelativeLayout
+                    android:id="@+id/typestop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/mode_list_item_bkg"
+                    android:layout_toLeftOf="@id/timerPickerStop"
+                    android:minHeight="@dimen/list_item_height" >
+
+                    <ImageView
+                        android:id="@id/arrow"
+                        android:layout_width="@dimen/mode_narmal_arrow_width"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/charge_page_button_right_normal" />
+
+                    <TextView
+                        android:id="@+id/labelstop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/mode_nomal_color"
+                        android:textSize="@dimen/mode_list_item_title_text_size" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:background="@drawable/history_bg"
+                android:stretchColumns="*" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/schedule_newshedule_timepicker_repeat"
+                    android:textColor="@color/home_optimize_button_color"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/new_mode_title_text_size" />
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/ck_monday"
+                        android:text="@string/schedule_newshedule_text_monday" />
+
+                    <CheckBox
+                        android:id="@+id/ck_tuesday"
+                        android:text="@string/schedule_newshedule_text_tuesday" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/ck_wednesday"
+                        android:text="@string/schedule_newshedule_text_wednesday" />
+
+                    <CheckBox
+                        android:id="@+id/ck_thursday"
+                        android:text="@string/schedule_newshedule_text_thurday" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <CheckBox
+                        android:id="@+id/ck_friday"
+                        android:text="@string/schedule_newshedule_text_friday" />
+
+                    <CheckBox
+                        android:id="@+id/ck_saturday"
+                        android:text="@string/schedule_newshedule_text_saturday" />
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/ck_sunday"
+                    android:text="@string/schedule_newshedule_text_sunday" />
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.02"
+        android:background="@color/tab_indicator_background_color"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/new_mode_title_margin_top_bottom"
+        android:paddingLeft="@dimen/new_mode_title_margin_left_right"
+        android:paddingRight="@dimen/new_mode_title_margin_left_right"
+        android:paddingTop="@dimen/new_mode_title_margin_top_bottom"
+        android:weightSum="2.0" >
+
+        <Button
+            android:id="@id/save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/new_mode_title_buttoms_margin"
+            android:layout_weight="1.0"
+            android:background="@drawable/power_analysis_button"
+            android:text="@string/mode_newmode_save"
+            android:textColor="#ffffffff"
+            android:textSize="16.0sp" />
+
+        <Button
+            android:id="@id/cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/power_analysis_button"
+            android:text="@string/mode_newmode_cancel"
+            android:textColor="#ffffffff"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

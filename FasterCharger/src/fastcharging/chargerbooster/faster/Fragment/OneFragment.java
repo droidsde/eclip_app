@@ -3,13 +3,18 @@ package fastcharging.chargerbooster.faster.Fragment;
 /**
  * Created by Tin on 2/23/2016.
  */
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
+import android.net.Uri;
 import android.os.BatteryManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.app.ActivityCompat;
@@ -76,7 +81,7 @@ public class OneFragment extends Fragment{
 
         //event
         ln1.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @TargetApi(23) @SuppressLint("NewApi") @Override
             public void onClick(View v) {
                 if (isClick1==false)
                 { 
@@ -84,16 +89,47 @@ public class OneFragment extends Fragment{
                     img1.setImageDrawable(getResources().getDrawable(R.drawable.ic_brightness_true));
                     tvTitle1.setTextColor(getResources().getColor(R.color.colorPrimary));
                     isClick1=true;
-                    Settings.System.putInt(getActivity().getContentResolver(),
-                            Settings.System.SCREEN_BRIGHTNESS_MODE, Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC);
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        if (Settings.System.canWrite(getActivity().getApplicationContext()))
+                        {
+                        	Settings.System.putInt(getActivity().getContentResolver(),
+                                    Settings.System.SCREEN_BRIGHTNESS_MODE, Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC);
+
+                        } else
+                        {
+                            Intent intent = new Intent(android.provider.Settings.ACTION_MANAGE_WRITE_SETTINGS);
+                            intent.setData(Uri.parse("package:" + getActivity().getPackageName()));
+                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(intent);
+                        }
+                    }else{
+                    	Settings.System.putInt(getActivity().getContentResolver(),
+                                Settings.System.SCREEN_BRIGHTNESS_MODE, Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC);
+                    }
+                    
                 }
                 else
                 {
                     img1.setImageDrawable(getResources().getDrawable(R.drawable.ic_brightness_min));
                     tvTitle1.setTextColor(getResources().getColor(R.color.text));
                     isClick1=false;
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        if (Settings.System.canWrite(getActivity().getApplicationContext()))
+                        {
+                        	Settings.System.putInt(getActivity().getContentResolver(),
+                                    Settings.System.SCREEN_BRIGHTNESS_MODE, Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL);
+
+                        } else
+                        {
+                            Intent intent = new Intent(android.provider.Settings.ACTION_MANAGE_WRITE_SETTINGS);
+                            intent.setData(Uri.parse("package:" + getActivity().getPackageName()));
+                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(intent);
+                        }
+                    }else{
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.SCREEN_BRIGHTNESS_MODE, Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL);
+                    }
                 }
             }
         });

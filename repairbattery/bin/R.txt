@@ -1270,6 +1270,7 @@ int string summary 0x7f0b0060
 int string temperature 0x7f0b005e
 int string two 0x7f0b005b
 int string upgrade_text 0x7f0b0043
+int string url_app 0x7f0b0076
 int string wDone 0x7f0b0048
 int string wallet_buy_button_place_holder 0x7f0b0042
 int string wdownload1 0x7f0b004c

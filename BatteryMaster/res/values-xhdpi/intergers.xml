@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- home -->
+    <integer name="home_top_area_weight">435</integer>
+    <integer name="home_mid_area_weight">140</integer>
+    <integer name="home_bottom_area_weight">405</integer>
+</resources>

@@ -1,0 +1,63 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- theme -->
+
+    <style name="Theme_Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- dialog -->
+    <style name="dialog_title">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textColor">@color/local_white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/title_bar_bg</item>
+        <item name="android:paddingLeft">@dimen/dialog_content_margin_left_right</item>
+        <item name="android:paddingRight">@dimen/dialog_content_margin_left_right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="dialog_content_style">
+        <item name="android:paddingLeft">@dimen/dialog_content_margin_left_right</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:paddingRight">@dimen/dialog_content_margin_left_right</item>
+    </style>
+	
+    <style name="font_main_tab_fragment">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/main_tab_text_color</item>
+    </style>
+    
+    <style name="font_main_tab_text">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/main_tab_text_color</item>
+    </style>
+
+    <style name="battery_info_view_summary">
+        <item name="android:textSize">@dimen/battery_info_view_summary_size</item>
+        <item name="android:textColor">@color/main_tab_text_color_normal</item>
+    </style>
+
+    <style name="battery_info_view_value">
+        <item name="android:textSize">@dimen/battery_info_view_value_size</item>
+        <item name="android:textColor">@color/main_tab_text_color_normal</item>
+    </style>
+
+    <style name="font_main_title">
+        <item name="android:textSize">@dimen/main_title_text_size</item>
+        <item name="android:textColor">@color/main_title_color</item>
+    </style>
+
+	<style name="switch_item">
+	    <item name="android:textColor">@color/widget_text_color</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:ellipsize">end</item>
+	</style>
+</resources>
