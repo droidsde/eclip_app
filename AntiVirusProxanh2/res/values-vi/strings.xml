@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">KI AntiVirus</string>
+    <string name="content_description">Descriptor</string>
+    <string name="m_initial">Thiết bị này chưa được quét. Lần quét đầu tiên có thể tốn một ít phút</string>
+    <string name="quick_scan">Quét nhanh</string>
+    <string name="full_scan">Quét đầy đủ</string>
+    <string name="rate_app">Đánh giá</string>
+    <string name="more_app">Hữu ích cho bạn</string>
+    <string name="pl_intializing_txt">Đang khởi động…</string>
+    <string name="time_elapse">Thời gian</string>
+    <string name="app_scan">Đã quét</string>
+    <string name="threat_detect">Phát hiện Virut</string>
+    <string name="hide_scan">Quét ẩn</string>
+    <string name="st_title">Phát hiện</string>
+    <string name="dash_LastScan">Lần quét trước:</string>
+    <string name="dash_Scanned">Đã quét</string>
+    <string name="dash_NoThreatFound">Không tìm thấy Virut.</string>
+    <string name="dash_apps">ứng dụng</string>
+    <string name="dash_files">tệp</string>
+    <string name="dash_ThreatFound"> threat(s) found.</string>
+    <string name="scan_title">Đang quét thiết bị…</string>
+    <string name="no_threat">Không tìm thấy Virut!</string>
+    <string name="scan_done">Scan</string>
+    <string name="exit">Thoát</string>
+    <string name="done">Hoàn tất</string>
+    <string name="stop_scan">Dừng</string>
+    <string name="doneand">và</string>
+    <string name="donein">trong</string>
+    <string name="donem">phút</string>
+    <string name="dones">giây</string>
+    <string name="untilfinish">Xin vui lòng chờ khởi động xong!!!</string>
+</resources>

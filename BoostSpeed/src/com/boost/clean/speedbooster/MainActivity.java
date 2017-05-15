@@ -12,8 +12,6 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -41,12 +39,10 @@ public class MainActivity extends AppCompatActivityAds implements BaseFragment.O
     String prefname = "speed booster 1.2";
 
     private Fragment mCurrentFragment;
-//    WolfAdsExit ads;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_main);
-//        ads = new WolfAdsExit(this, getResources().getString(R.string.app_name));
         if (null != getSupportActionBar()) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setHomeAsUpIndicator(R.mipmap.ic_launcher);

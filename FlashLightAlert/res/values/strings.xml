@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlashLight Alerts 2017</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textInfo">- The FlashLight will blink when You receive a Phone Call or SMS.\n- You can set blink speek (For phone notification ), blink times (For sms notification ). \nSwitch on to start this Feature.</string>
+	<string name="textViewdemo">Introduce our application</string>
+	
+</resources>

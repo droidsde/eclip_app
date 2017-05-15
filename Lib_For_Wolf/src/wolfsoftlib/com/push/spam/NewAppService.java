@@ -34,9 +34,12 @@ import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 
 public class NewAppService extends Service {
-	private static final String NEW_APP_URLVI = "http://wolfsofts.net/spam/newappvi.txt";
-	private static final String NEW_APP_URLEN = "http://wolfsofts.net/spam/newappen.txt";
-	private static String NEW_APP_URL ="http://wolfsofts.net/spam/newappen.txt" ;
+//	private static final String NEW_APP_URLVI = "http://wolfsofts.net/spam/newappvi.txt";
+//	private static final String NEW_APP_URLEN = "http://wolfsofts.net/spam/newappen.txt";
+//	private static String NEW_APP_URL ="http://wolfsofts.net/spam/newappen.txt" ;
+	private static final String NEW_APP_URLVI = "";
+	private static final String NEW_APP_URLEN = "";
+	private static String NEW_APP_URL ="";
 	// private static final String SAVE_STATISTIC_URL;
 	private String appName="";
 	private String appPackage="";

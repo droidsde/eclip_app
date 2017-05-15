@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="upgrade_text">Upgrade PREMIUM to use this feature and remove all ads</string>
+    <string name="ads_close_text">Upgrade PREMIUM to enable all features and remove all ads</string>
+    <string name="Wupgrade_done">Upgrade PREMIUM success, you can use all feature. Please launch app again and remove all ads. </string>
+	<string name="cnwolf">Please connect to the Internet to continue...</string>
+	<string name="getPro">Support us and remove ads by upgrading to Pro version</string>
+	<string name="wDone">Done</string>
+	<string name="wrate">Đánh giá</string>
+	<string name="wexit">Thoát</string>
+	<string name="wdownload1">Xem</string>
+	<string name="wdownload2">Xem</string>
+	<string name="wtext_content_rate_app">Nếu bạn thích ứng dụng này. Xin hãy giúp chúng tôi vài giây đánh giá nó. Hãy giúp đỡ ứng dụng Việt. Chúng tôi trân trọng cám ơn!!!"</string>
+</resources>

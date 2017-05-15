@@ -1,0 +1,135 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.security.virusscanner.antivirus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="24" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.security.virusscanner.antivirus.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.security.virusscanner.antivirus.MainActivity"
+            android:screenOrientation="portrait" 
+            android:launchMode="singleTask">
+            
+        </activity>
+        <activity
+            android:name="com.security.virusscanner.antivirus.ScanActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" 
+            android:launchMode="singleTask">
+            
+        </activity>
+        <activity
+            android:name="com.security.virusscanner.antivirus.DoneActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" >
+            
+        </activity>     
+        <activity
+            android:name="com.security.virusscanner.antivirus.ScanAppActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity
+            android:name="com.security.virusscanner.antivirus.free.RemoveViRusAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <service android:name="com.security.virusscanner.antivirus.service.ScanService" >
+        </service>
+        <service android:name="com.security.virusscanner.antivirus.service.DoneIntentService" >
+        </service>
+        
+        
+        <receiver
+            android:name="com.security.virusscanner.antivirus.receiver.RemoveReceiver"
+            android:exported="true"
+            android:priority="2147483647" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL" >
+                </action>
+                <action android:name="android.intent.action.PACKAGE_ADDED" >
+                </action>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" >
+                </action>
+
+                <data android:scheme="package" >
+                </data>
+            </intent-filter>
+        </receiver>
+       
+
+        <activity
+            android:name="com.security.virusscanner.antivirus.free.ProtectActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.security.virusscanner.antivirus.free.VirusDetectAct"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <receiver
+            android:name="com.security.virusscanner.antivirus.receiver.NewAppReceiver"
+            android:exported="true"
+            android:priority="2147483647" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.security.virusscanner.antivirus.receiver.RMPReceiver"
+            android:exported="true"
+            android:priority="999" >
+            <intent-filter>
+                <action android:name="com.security.virusscanner.antivirus.remove_package" />
+            </intent-filter>
+        </receiver>
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+              <receiver android:name="com.getcrash.mo.CrashReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+        </receiver>
+        
+	
+	
+    </application>
+
+</manifest>

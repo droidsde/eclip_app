@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+	<string name="cnwolf">Please connect to the Internet to continue...</string>
+	<string name="adDone">Done</string>
+	<string name="adrate">Rate Now</string>
+	<string name="adexit">Exit</string>
+	<string name="addownload2">View</string>
+	<string name="addownload1">View on store</string>
+	<string name="adtext_content_rate_app">If you enjoy using this app, please take a moment to rate it. Thanks for your support!"</string>
+</resources>

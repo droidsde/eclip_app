@@ -1,8 +1,8 @@
 <resources>
 
-    <string name="app_name">Cooler Master</string>
+    <string name="app_name">Phone Cooler</string>
     <string name="title_more">More</string>
-    <string name="title_more_app">More app</string>
+    <string name="title_more_app">Useful Apps</string>
     <string name="title_rate_app">Rate app</string>
     <string name="title_share_app">Share app</string>
     <string name="title_feedback">Feed back</string>
@@ -35,5 +35,5 @@
 	<string name="cool_cpu">CPU is Cool</string>
 	<string name="degree">\u2103</string>
 	<string name="percent">%</string>
-    
+    <string name="exitapp">Exit</string>
 </resources>

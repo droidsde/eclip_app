@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/st_fileicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/content_description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/warnning" />
+
+    <TextView
+        android:id="@+id/st_filename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:text="App Name"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/m_info_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/delete" />
+
+</LinearLayout>

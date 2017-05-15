@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+   	xmlns:android="http://schemas.android.com/apk/res/android" >
+ <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+    <FrameLayout 
+        android:layout_gravity="center" 
+        android:orientation="vertical" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="0.0dip" 
+        android:layout_marginRight="0.0dip" 
+        android:baselineAligned="false">
+
+        <ImageView
+            android:id="@+id/wimage_app"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_gravity="center"
+            android:layout_margin="5.0dip"
+            android:layout_weight="1.0"
+            android:padding="1.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/wimagedefaul" />
+
+        <adsforyou.com.view.AdProgressWheel
+            android:id="@+id/wprogress_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            wheel:matProg_barColor="#00C780"
+	        wheel:matProg_progressIndeterminate="true"
+	        wheel:matProg_fillRadius="false"
+	        wheel:matProg_linearProgress="true"/>
+    </FrameLayout>
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_marginLeft="2.0dip" 
+        android:layout_marginTop="3.0dip" 
+        android:layout_marginRight="1.0dip" 
+        android:layout_marginBottom="3.0dip" 
+        android:baselineAligned="false" 
+        android:layout_weight="1.0" 
+        >
+
+        <TextView
+            android:id="@+id/wtv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="3.0dip"
+            android:maxLines="2"
+            android:minLines="1"
+            android:paddingTop="2.0dip"
+            android:text="Title App"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="14.0sp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wtv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3.0dip"
+                android:maxLines="3"
+                android:minLines="2"
+                android:text="Info app"
+                android:textSize="12.0sp"
+                android:textStyle="italic" />
+
+    </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>
+<!-- From: file:/D:/Android%20World/NGU/Lib_For_Wolf/res/layout/witem_more_app_list.xml -->

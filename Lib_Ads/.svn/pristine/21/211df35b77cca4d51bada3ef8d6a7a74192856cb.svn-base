@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WProgressWheel"><attr format="boolean" name="matProg_progressIndeterminate"/><attr format="color" name="matProg_barColor"/><attr format="color" name="matProg_rimColor"/><attr format="dimension" name="matProg_rimWidth"/><attr format="float" name="matProg_spinSpeed"/><attr format="integer" name="matProg_barSpinCycleTime"/><attr format="dimension" name="matProg_circleRadius"/><attr format="boolean" name="matProg_fillRadius"/><attr format="dimension" name="matProg_barWidth"/><attr format="boolean" name="matProg_linearProgress"/></declare-styleable>
+    <!-- From: file:/D:/Android%20World/NGU/Lib_For_Wolf/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Android%20World/NGU/Lib_For_Wolf/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Wupgrade_done">Upgrade PREMIUM success, you can use all feature. Please launch app again and remove all ads. </string>
+    <string name="ads_close_text">Upgrade PREMIUM to enable all features and remove all ads</string>
+    <string name="cnwolf">Please connect to the Internet to continue...</string>
+    <string name="getPro">Support us and remove ads by upgrading to Pro version</string>
+    <string name="upgrade_text">Upgrade PREMIUM to use this feature and remove all ads</string>
+    <string name="wDone">Done</string>
+    <string name="wexit">Exit</string>
+    <string name="wrate">Rate Now</string>
+    <string name="wtext_content_rate_app">If you enjoy using this app, please take a moment to rate it. Thanks for your support!"</string>
+    <!-- From: file:/D:/Android%20World/NGU/Lib_For_Wolf/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

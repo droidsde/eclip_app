@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#36474e"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/wscrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/wtxtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="24dp"
+                android:text="Name App"
+                android:textStyle="bold"
+                 android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="#2cb424"/>
+
+            <TextView
+                android:id="@+id/wtxtContent"
+                android:textColor="#FAFAFA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:text="@string/adtext_content_rate_app"
+               android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/wbtnOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.ActionButton"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textColor="#FAFAFA"
+                    android:textStyle="bold"
+                    android:text="@string/adrate" />
+                  <Button
+                    android:id="@+id/wbtnCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.Widget.AppCompat.ActionButton"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:textColor="#FAFAFA"
+                    android:textStyle="bold"
+                    android:text="@string/adexit" />
+
+               
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

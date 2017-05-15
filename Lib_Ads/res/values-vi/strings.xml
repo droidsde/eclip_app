@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+	<string name="cnwolf">Please connect to the Internet to continue...</string>
+	<string name="adDone">Done</string>
+	<string name="adrate">Đánh giá</string>
+	<string name="adexit">Thoát</string>
+	<string name="addownload1">Xem</string>
+	<string name="addownload2">Xem</string>
+	<string name="adtext_content_rate_app">Nếu bạn thích ứng dụng này. Xin hãy giúp chúng tôi vài giây đánh giá nó. Hãy giúp đỡ ứng dụng Việt. Chúng tôi trân trọng cám ơn!!!"</string>
+</resources>

@@ -12,17 +12,31 @@
         android:divider="@null"
         android:dividerHeight="5dp"
         android:drawSelectorOnTop="true" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/btnKill"
-        android:layout_width="wrap_content"
+    
+    <LinearLayout 
         android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="9dp"
         android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnKill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/fabfan"
         app:elevation="3dp" />
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tvtvtv"
+            android:text="@string/cooling_title"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    
 
 </RelativeLayout>

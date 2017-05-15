@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">KI AntiVirus</string>
+    <string name="content_description">Descriptor</string>
+    <string name="m_initial">This device is not scanned yet.\nStart Your First Scan</string>
+    <string name="quick_scan">Quick Scan</string>
+    <string name="full_scan">Full Scan</string>
+    <string name="rate_app">Rate App</string>
+    <string name="more_app">Useful For You</string>
+    <string name="pl_intializing_txt">Initializing…</string>
+    <string name="time_elapse">Time Elapsed</string>
+    <string name="app_scan">Apps Scanned</string>
+    <string name="threat_detect">Threat Detected</string>
+    <string name="hide_scan">Hide Scan</string>
+    <string name="st_title">Threats Detected</string>
+    <string name="dash_LastScan">Last Scan:</string>
+    <string name="dash_Scanned">Scanned</string>
+    <string name="dash_NoThreatFound">No threats found.</string>
+    <string name="dash_apps">apps</string>
+    <string name="dash_files">files</string>
+    <string name="dash_ThreatFound"> threat(s) found.</string>
+    <string name="scan_title">Scanning the phone…</string>
+    <string name="no_threat">No Threats found!</string>
+    <string name="scan_done">Scan</string>
+    <string name="exit">Exit</string>
+    <string name="done">Done</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="doneand"> and </string>
+    <string name="donein"> in </string>
+    <string name="donem"> m </string>
+    <string name="dones"> s </string>
+    
+   
+    <string name="untilfinish">Please wait until the initialization finish!!!</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#019c64</color>
+    <color name="primary_dark">#007048</color>
+    <color name="accent">#007048</color>
+    <color name="rippelColor">#019c64</color>
+    
+    <color name="text">#424242</color>
+    <color name="white">#FFFFFF</color>
+</resources>

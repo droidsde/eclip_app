@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.petusg.mastercooler.devicecooler&apos; to &apos;com.phonecooler.cooldown.coolermaster&apos;&#x0D;&#x0A;- Original project: &apos;CoolingApp&apos;&#x0D;&#x0A;- Original element: &apos;CoolingApp/src/com.petusg.mastercooler.devicecooler&apos;&#x0D;&#x0A;- Renamed element: &apos;CoolingApp/src/com.phonecooler.cooldown.coolermaster&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.petusg.mastercooler.devicecooler&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.petusg.mastercooler.devicecooler" name="com.phonecooler.cooldown.coolermaster" qualified="false" references="true" stamp="1491806080434" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,206 @@
+<resources>
+
+    <string name="app_name">Assistive Touch</string>
+    <string name="image_desc">Image</string>
+    <string name="app_on">ENABLED</string>
+    <string name="app_off">DISABLED</string>
+    <string name="color_bg_text">Color</string>
+    <string name="icon_text">Icon</string>
+    <string name="icon_rate">Rate</string>
+    <string name="icon_more_app">More app</string>
+    <string name="ic_go_bo">Uninstall</string>
+    
+    <string name="app_text">Apps</string>
+    <string name="setting_title">Settings</string>
+    <string name="display_setting_title">Display Setting</string>
+    <string name="config_setting_title">Panel Setting</string>
+    <string name="config_setting">Panel</string>
+    <string name="display_setting">Display</string>
+    <string name="page_change_speed">Amination Speed</string>
+    <string name="slow_speed">Slow</string>
+    <string name="normal_speed">Normal</string>
+    <string name="fast_speed">Quick</string>
+    <string name="icon_size">Size</string>
+    <string name="icon_transparent">Alpha</string>
+    <string name="main_page_title">1/2 MAIN</string>
+    <string name="setting_page_title">2/2 SETTING</string>
+    <string name="choose_task_text">Select Action</string>
+    <string name="potrait">Portrait</string>
+    <string name="auto_rotate">Auto-rotate</string>
+    <string name="brightness">Brightness</string>
+    <string name="screen_timeout">Screen timeout</string>
+    <string name="auto">Auto</string>
+    <string name="sec">sec</string>
+    <string name="min">min</string>
+    <string name="device_not_support">Device not support!</string>
+    <string name="freed_ram">Freed RAM:</string>
+    <string name="device_admin_description">For Assistive Touch Lock Screen</string>
+    <string name="task_is_running">Clean Task is running!</string>
+    <string name="phone_boosted">Phone has been boosted!</string>
+    <string name="bluetooth_is_enabling">Bluetooth is enabling, please wait...</string>
+
+    <string-array name="icon_name">
+        <item>ic_touchnew1</item>
+        <item>ic_touchnew2</item>
+        <item>ic_touchnew3</item>
+        <item>ic_touchnew4</item>
+        <item>ic_touchnew5</item>
+        <item>ic_touchnew6</item>
+        <item>ic_touchnew7</item>
+        <item>ic_touchnew8</item>
+        <item>ic_touchnew9</item>
+        <item>ic_touchnew10</item>
+        <item>ic_touchnew11</item>
+        <item>ic_touchnew12</item>
+        <item>theme_blue</item>
+        <item>theme_blue_ocean</item>
+        <item>theme_classic</item>
+        <item>theme_white</item>
+        <item>ic_touch_01</item>
+        <item>ic_touch_02</item>
+        <item>ic_touch_03</item>
+        <item>ic_touch_04</item>
+        <item>ic_touch_05</item>
+        <item>ic_touch_06</item>
+        <item>ic_touch_07</item>
+        <item>ic_touch_08</item>
+        <item>ic_touch_09</item>
+        <item>ic_touch_10</item>
+        <item>ic_touch_11</item>
+        <item>ic_touch_12</item>
+        <item>ic_touch_13</item>
+        <item>ic_touch_14</item>
+        <item>hoangdao1</item>
+        <item>hoangdao2</item>
+        <item>hoangdao3</item>
+        <item>hoangdao4</item>
+        <item>hoangdao5</item>
+        <item>hoangdao6</item>
+        <item>hoangdao7</item>
+        <item>hoangdao8</item>
+        <item>hoangdao9</item>
+        <item>hoangdao10</item>
+        <item>hoangdao11</item>
+        <item>hoangdao12</item>
+        <item>congiap1</item>
+        <item>congiap2</item>
+        <item>congiap3</item>
+        <item>congiap4</item>
+        <item>congiap5</item>
+        <item>congiap6</item>
+        <item>congiap7</item>
+        <item>congiap8</item>
+        <item>congiap9</item>
+        <item>congiap10</item>
+        <item>congiap11</item>
+        <item>congiap12</item>
+        <item>animal1</item>
+        <item>animal2</item>
+        <item>animal3</item>
+        <item>animal4</item>
+        <item>animal5</item>
+        <item>animal6</item>
+        <item>animal7</item>
+        <item>animal8</item>
+        <item>animal9</item>
+        <item>animal10</item>
+        <item>animal11</item>
+        <item>animal12</item>
+        <item>animal13</item>
+        <item>animal14</item>
+        <item>animal15</item>
+        <item>animal16</item>
+        <item>animal17</item>
+        <item>animal18</item>
+        <item>animal19</item>
+        <item>animal20</item>
+        <item>animal21</item>
+        <item>animal22</item>
+        <item>animal23</item>
+        <item>animal24</item>
+        <item>animal25</item>
+        <item>animal26</item>
+        <item>animal27</item>
+        <item>animal28</item>
+        <item>animal29</item>
+        <item>animal30</item>
+        <item>animal31</item>
+        <item>animal32</item>
+        <item>animal33</item>
+        <item>animal34</item>
+        <item>animal35</item>
+        <item>animal36</item>
+        <item>animal37</item>
+        <item>animal38</item>
+        <item>animal39</item>
+        <item>animal40</item>
+        <item>animal41</item>
+        <item>animal42</item>
+        <item>animal43</item>
+        <item>animal44</item>
+        <item>animal45</item>
+        <item>animal46</item>
+        <item>animal47</item>
+        <item>animal48</item>
+        <item>animal49</item>
+        <item>animal50</item>
+        <item>animal51</item>
+        <item>animal52</item>
+        <item>animal54</item>
+        <item>animal55</item>
+        <item>animal56</item>   
+        <item>ic_touch_41</item>
+        <item>ic_touch_42</item>
+        <item>ic_touch_43</item>
+        <item>ic_touch_44</item>
+        <item>ic_touch_45</item>
+        <item>ic_touch_46</item>
+        <item>ic_touch_47</item>
+        <item>ic_touch_48</item>
+        <item>ic_touch_49</item>
+        <item>ic_touch_50</item>
+        <item>ic_touch_51</item>
+    </string-array>
+    <string-array name="color_bg_code">
+        <item>#E57373</item>
+        <item>#F06292</item>
+        <item>#BA68C8</item>
+        <item>#9575CD</item>
+        <item>#7986CB</item>
+        <item>#064578</item>
+        <item>#4FC3F7</item>
+        <item>#4DD0E1</item>
+        <item>#4DB6AC</item>
+        <item>#81C784</item>
+        <item>#AED581</item>
+        <item>#DCE775</item>
+        <item>#FFF176</item>
+        <item>#FFD54F</item>
+        <item>#FFB74D</item>
+        <item>#FF8A65</item>
+        <item>#A1887F</item>
+        <item>#E0E0E0</item>
+        <item>#808080</item>
+        <item>#000000</item>
+    </string-array>
+    <string-array name="list_task">
+        <item>ic_action_new.None</item>
+        <item>ic_home_white.Home</item>
+        <item>ic_settings_applications_white.Setting</item>
+        <item>ic_screen_lock_portrait_white.Lock</item>
+        <item>ic_star_white.Favor</item>
+        <item>ic_location_on_white.Location</item>
+        <item>ic_signal_wifi_on_white.Wifi</item>
+        <item>ic_airplanemode_on_white.Airplane</item>
+        <item>ic_bluetooth_white.Bluetooth</item>
+        <item>ic_screen_rotation_white.Rotate Screen</item>
+        <item>ic_clear_ram.Clean</item>
+        <item>ic_flash_on_white.Flashlight</item>
+        <item>ic_volume_off_white.Sound Mode</item>
+        <item>ic_volume_up_white.Volume Up</item>
+        <item>ic_volume_down_white.Volume Down</item>
+        <item>ic_brightness_white.Brightness</item>
+        <item>ic_recent_white.Recent</item>
+    </string-array>
+
+</resources>

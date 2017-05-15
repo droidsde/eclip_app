@@ -35,5 +35,6 @@
 	<string name="cool_cpu">CPU thì lạnh</string>
 	<string name="degree">\u2103</string>
 	<string name="percent">%</string>
+	<string name="exitapp">Thoát</string>
     
 </resources>

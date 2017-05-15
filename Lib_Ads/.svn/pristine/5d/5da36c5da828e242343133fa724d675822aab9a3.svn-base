@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/wolfsolflib/com/view/WGrid.java" />
+        <ignore path="src/wolfsolflib/com/view/WProgressWheel.java" />
+    </issue>
+</lint>

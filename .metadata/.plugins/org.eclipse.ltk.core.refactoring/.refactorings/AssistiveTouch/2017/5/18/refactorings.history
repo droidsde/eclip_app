@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.anhlt.assistivetouch&apos; to &apos;com.usstudio.easytouch.assistivetouch&apos;&#x0D;&#x0A;- Original project: &apos;AssistiveTouch&apos;&#x0D;&#x0A;- Original element: &apos;AssistiveTouch/src/com.anhlt.assistivetouch&apos;&#x0D;&#x0A;- Renamed element: &apos;AssistiveTouch/src/com.usstudio.easytouch.assistivetouch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.anhlt.assistivetouch&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.anhlt.assistivetouch" name="com.usstudio.easytouch.assistivetouch" qualified="false" references="true" stamp="1493970965712" textual="false" version="1.0"/>
+</session>

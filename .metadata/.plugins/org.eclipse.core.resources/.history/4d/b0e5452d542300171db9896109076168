@@ -1,0 +1,149 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anhlt.antiviruspro"
+    android:versionCode="6"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.anhlt.antiviruspro.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.anhlt.antiviruspro.MainActivity"
+            android:screenOrientation="portrait" 
+            android:launchMode="singleTask">
+            
+        </activity>
+        <activity
+            android:name="com.anhlt.antiviruspro.ScanActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" 
+            android:launchMode="singleTask">
+            
+        </activity>
+        <activity
+            android:name="com.anhlt.antiviruspro.DoneActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask" >
+            
+        </activity>     
+        <activity
+            android:name="com.anhlt.antiviruspro.ScanAppActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        <activity
+            android:name="com.anhlt.antivituspro.free.RemoveViRusAct"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <service android:name="com.anhlt.antiviruspro.service.ScanService" >
+        </service>
+        <service android:name="com.anhlt.antiviruspro.service.DoneIntentService" >
+        </service>
+        <service android:name="com.anhlt.antiviruspro.service.CFU" >
+        </service>
+        
+        <receiver
+            android:name="com.anhlt.antiviruspro.receiver.RemoveReceiver"
+            android:exported="true"
+            android:priority="2147483647" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL" >
+                </action>
+                <action android:name="android.intent.action.PACKAGE_ADDED" >
+                </action>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" >
+                </action>
+
+                <data android:scheme="package" >
+                </data>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.anhlt.antiviruspro.receiver.Wake_CFU"
+            android:exported="true"
+            android:priority="1000" >
+        </receiver>
+
+        <activity
+            android:name="com.anhlt.antivituspro.free.ProtectActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.anhlt.antivituspro.free.VirusDetectAct"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <receiver
+            android:name="com.anhlt.antiviruspro.receiver.NewAppReceiver"
+            android:exported="true"
+            android:priority="2147483647" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.anhlt.antiviruspro.receiver.RMPReceiver"
+            android:exported="true"
+            android:priority="999" >
+            <intent-filter>
+                <action android:name="com.anhlt.antiviruspro.remove_package" />
+            </intent-filter>
+        </receiver>
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <service
+			android:name="com.ironsource.mobilcore.MobileCoreReport"
+			android:enabled="true"
+			android:exported="false" android:process=":mcServiceProcess">
+			</service>
+
+		<receiver
+			android:name="com.ironsource.mobilcore.InstallationTracker"
+			android:enabled="true"
+			android:process=":installationTracker">
+		</receiver>
+			<activity
+				android:name="com.ironsource.mobilcore.InterstitialVideoActivity"
+				android:configChanges="keyboardHidden|orientation|screenSize"
+				android:keepScreenOn="true"/>
+		
+
+       
+    </application>
+
+</manifest>
