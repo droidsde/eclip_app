@@ -22,11 +22,11 @@
 
         <com.romainpiel.shimmer.ShimmerTextView
         android:id="@+id/shimmer_tv"
-        android:text="Flash Alerts"
+        android:text="Assistive Touch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#444"
-        android:textSize="36sp"
+        android:textSize="32sp"
         android:layout_gravity="center"/>
     </LinearLayout>
 
